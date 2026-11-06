@@ -969,6 +969,47 @@
   ]
  },
  {
+  "id": "cc.ncu.edu.tw",
+  "name": "National Central University",
+  "domains": [
+   "cc.ncu.edu.tw"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "smtp.ncu.edu.tw",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://support.mail.ncu.edu.tw/articles/config.html",
+  "shortName": "NCU",
+  "pop3": [
+   {
+    "host": "pop3.ncu.edu.tw",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://support.mail.ncu.edu.tw/articles/config.html",
+    "description": {
+     "en": "NCU email client configuration",
+     "zh-TW": "NCU 電子郵件軟體設定"
+    }
+   }
+  ]
+ },
+ {
   "id": "cc9.ne.jp",
   "name": "CC9インターネットサービス",
   "domains": [
@@ -1732,12 +1773,23 @@
     "security": "tls",
     "username": "%EMAILADDRESS%",
     "auth": [
-     "password-encrypted"
+     "password-cleartext"
     ]
    }
   ],
   "helpUrl": "https://cs.daum.net/faq/43/9234.html#24081",
   "shortName": "Daum",
+  "pop3": [
+   {
+    "host": "pop.daum.net",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
   "docs": [
    {
     "url": "https://cs.daum.net/faq/43/9234.html#24081"
@@ -7724,6 +7776,7 @@
   "name": "Vodafone",
   "domains": [
    "vodafonemail.de",
+   "vodafone.de",
    "arcor.de",
    "kabelmail.de"
   ],

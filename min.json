@@ -928,7 +928,7 @@
     "security": "tls",
     "username": "%EMAILADDRESS%",
     "auth": [
-     "password-encrypted"
+     "password-cleartext"
     ]
    }
   ],
@@ -4353,6 +4353,7 @@
   "name": "Vodafone",
   "domains": [
    "vodafonemail.de",
+   "vodafone.de",
    "arcor.de",
    "kabelmail.de"
   ],
