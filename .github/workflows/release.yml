@@ -1,0 +1,27 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - min.json
+      - full/full.json
+  workflow_call:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - name: Tag and publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="v0.$(date -u +%Y%m%d).$GITHUB_RUN_NUMBER"
+          gh release create "$tag" min.json full/full.json NOTICE LICENSE.data \
+            --target "$(git rev-parse HEAD)" --title "$tag" --generate-notes

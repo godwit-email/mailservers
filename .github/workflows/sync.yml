@@ -1,0 +1,87 @@
+name: Sync upstream
+
+# Follows ISPDB weekly. The data says where passwords go, so only additions land
+# on their own; anything that changes or removes what an address relies on waits
+# in a pull request for a person.
+on:
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    outputs:
+      pushed: ${{ steps.sync.outputs.pushed }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          submodules: true
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+      - name: Update and generate
+        id: sync
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp min.json "$RUNNER_TEMP/old.json"
+          git submodule update --remote upstream
+          if git diff --quiet -- upstream; then
+            echo "Upstream has not moved."
+            exit 0
+          fi
+          go run ./cmd/gen
+          go test ./...
+
+          code=0
+          go build -o "$RUNNER_TEMP/classify" ./cmd/classify
+          "$RUNNER_TEMP/classify" "$RUNNER_TEMP/old.json" min.json > "$RUNNER_TEMP/report.txt" || code=$?
+          cat "$RUNNER_TEMP/report.txt"
+
+          upstream=$(git -C upstream rev-parse --short HEAD)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add upstream min.json full/full.json
+
+          case "$code" in
+          0)
+            git commit -m "chore: sync ISPDB to $upstream"
+            git push origin HEAD:main
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
+            ;;
+          2)
+            branch=sync/upstream
+            git switch -c "$branch"
+            git commit -m "chore: sync ISPDB to $upstream"
+            git push --force origin "$branch"
+            {
+              echo "Upstream changed or removed servers that existing addresses rely on. Check each one before merging: this data says where passwords go."
+              echo
+              echo "Tests passed in the sync run. Pull requests opened by this workflow do not start CI on their own."
+              echo
+              echo '```'
+              head -c 60000 "$RUNNER_TEMP/report.txt"
+              echo '```'
+            } > "$RUNNER_TEMP/body.md"
+            gh label create needs-review --color D93F0B --force
+            if [ -n "$(gh pr list --head "$branch" --json number --jq '.[0].number')" ]; then
+              gh pr edit "$branch" --body-file "$RUNNER_TEMP/body.md"
+            else
+              gh pr create --head "$branch" --title "chore: sync ISPDB to $upstream" --label needs-review --body-file "$RUNNER_TEMP/body.md"
+            fi
+            ;;
+          *)
+            exit "$code"
+            ;;
+          esac
+
+  # A push by this workflow's token starts no other workflow, so it calls this one.
+  release:
+    needs: sync
+    if: needs.sync.outputs.pushed == 'true'
+    uses: ./.github/workflows/release.yml

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientConfig version="1.1">
+  <emailProvider id="netease-qiye">
+    <displayName>网易企业邮箱</displayName>
+    <mx>qiye.163.com</mx>
+    <mx>qiye163mx*.mxmail.netease.com</mx>
+    <mx>hzmx*.mxmail.netease.com</mx>
+    <incomingServer type="imap">
+      <hostname>imap.qiye.163.com</hostname>
+      <port>993</port>
+      <socketType>SSL</socketType>
+      <username>%EMAILADDRESS%</username>
+      <authentication>password-cleartext</authentication>
+    </incomingServer>
+    <outgoingServer type="smtp">
+      <hostname>smtp.qiye.163.com</hostname>
+      <port>465</port>
+      <socketType>SSL</socketType>
+      <username>%EMAILADDRESS%</username>
+      <authentication>password-cleartext</authentication>
+    </outgoingServer>
+  </emailProvider>
+</clientConfig>

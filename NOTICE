@@ -1,0 +1,9 @@
+mailservers
+Copyright the Godwit authors
+
+The code is licensed under the Apache License 2.0 (LICENSE).
+
+min.json and full/full.json are generated from the Thunderbird ISP database
+(https://github.com/thunderbird/autoconfig), used under the Mozilla Public
+License 2.0 (LICENSE.data), and are offered under that license. The source of
+that data is in the upstream submodule at the commit recorded in this repository.

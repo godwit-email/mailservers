@@ -1,0 +1,9289 @@
+[
+ {
+  "id": "126.com",
+  "name": "126.com",
+  "domains": [
+   "126.com"
+  ],
+  "imap": [
+   {
+    "host": "imap.126.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.126.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "126.com"
+ },
+ {
+  "id": "163.com",
+  "name": "163.com",
+  "domains": [
+   "163.com"
+  ],
+  "imap": [
+   {
+    "host": "imap.163.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.163.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "163.com"
+ },
+ {
+  "id": "1und1.de",
+  "name": "1&1",
+  "domains": [
+   "online.de",
+   "onlinehome.de",
+   "sofortstart.de",
+   "sofort-start.de",
+   "sofortsurf.de",
+   "sofort-surf.de",
+   "go4more.de",
+   "kundenserver.de",
+   "schlund.de"
+  ],
+  "imap": [
+   {
+    "host": "imap.1und1.de",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "imap.1und1.de",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.1und1.de",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.1und1.de",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://hilfe-center.1und1.de/e-mail-einstellungen",
+  "shortName": "1&1",
+  "pop3": [
+   {
+    "host": "pop.1und1.de",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "pop.1und1.de",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "webmailUrl": "https://www.1und1.de/login",
+  "docs": [
+   {
+    "url": "https://hilfe-center.1und1.de/e-mail-einstellungen"
+   }
+  ]
+ },
+ {
+  "id": "263",
+  "name": "263 企业邮箱",
+  "mx": [
+   "263xmail.com"
+  ],
+  "imap": [
+   {
+    "host": "imap.263.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.263.net",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "a1.net",
+  "name": "a1.net",
+  "domains": [
+   "a1.net",
+   "aon.at"
+  ],
+  "imap": [
+   {
+    "host": "securemail.a1.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "securemail.a1.net",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "a1.net"
+ },
+ {
+  "id": "active24.com",
+  "name": "ACTIVE 24 Webhosting",
+  "domains": [
+   "active24.com",
+   "smtp.cz"
+  ],
+  "imap": [
+   {
+    "host": "email.active24.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "email.active24.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "ACTIVE 24",
+  "pop3": [
+   {
+    "host": "email.active24.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "webmailUrl": "https://webmail.active24.com/"
+ },
+ {
+  "id": "alice.it",
+  "name": "Alice Italy",
+  "domains": [
+   "alice.it"
+  ],
+  "imap": [
+   {
+    "host": "in.alice.it",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "out.alice.it",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.tim.it/assistenza/assistenza-tecnica/mail/configurazione/protocolli-posta",
+  "shortName": "Alice",
+  "pop3": [
+   {
+    "host": "in.alice.it",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.tim.it/assistenza/assistenza-tecnica/mail/configurazione/protocolli-posta"
+   }
+  ]
+ },
+ {
+  "id": "alimail",
+  "name": "阿里企业邮箱",
+  "mx": [
+   "mxhichina.com",
+   "qiye.aliyun.com"
+  ],
+  "imap": [
+   {
+    "host": "imap.qiye.aliyun.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.qiye.aliyun.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "aol.com",
+  "name": "AOL Mail",
+  "domains": [
+   "aol.com",
+   "aim.com",
+   "netscape.net",
+   "netscape.com",
+   "compuserve.com",
+   "cs.com",
+   "wmconnect.com",
+   "aol.de",
+   "aol.it",
+   "aol.fr",
+   "aol.es",
+   "aol.se",
+   "aol.co.uk",
+   "aol.co.nz",
+   "aol.com.au",
+   "aol.com.ar",
+   "aol.com.br",
+   "aol.com.mx",
+   "mail.gm0.yahoodns.net"
+  ],
+  "imap": [
+   {
+    "host": "imap.aol.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.aol.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://help.aol.com/articles/how-do-i-use-other-email-applications-to-send-and-receive-my-aol-mail",
+  "shortName": "AOL",
+  "pop3": [
+   {
+    "host": "pop.aol.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "oauth2": {
+   "issuer": "login.aol.com",
+   "scope": "mail-w",
+   "authUrl": "https://api.login.aol.com/oauth2/request_auth",
+   "tokenUrl": "https://api.login.aol.com/oauth2/get_token"
+  },
+  "webmailUrl": "https://mail.aol.com/",
+  "docs": [
+   {
+    "url": "https://help.aol.com/articles/how-do-i-use-other-email-applications-to-send-and-receive-my-aol-mail",
+    "description": {
+     "en": "How do I set up other email applications to send and receive my AOL Mail?"
+    }
+   }
+  ]
+ },
+ {
+  "id": "arubapec.it",
+  "name": "Aruba PEC",
+  "domains": [
+   "pec.it",
+   "arubapec.it",
+   "mypec.eu",
+   "gigapec.it",
+   "ingpec.eu"
+  ],
+  "imap": [
+   {
+    "host": "imaps.pec.aruba.it",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtps.pec.aruba.it",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://pec.aruba.it/guide_filmate.asp",
+  "shortName": "Aruba",
+  "pop3": [
+   {
+    "host": "pop3s.pec.aruba.it",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://pec.aruba.it/guide_filmate.asp"
+   }
+  ]
+ },
+ {
+  "id": "att.net",
+  "name": "AT&T",
+  "domains": [
+   "ameritech.net",
+   "att.net",
+   "bellsouth.net",
+   "currently.com",
+   "flash.net",
+   "nvbell.net",
+   "pacbell.net",
+   "prodigy.net",
+   "sbcglobal.net",
+   "snet.net",
+   "swbell.net",
+   "wans.net"
+  ],
+  "imap": [
+   {
+    "host": "imap.mail.att.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "outbound.att.net",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.mail.att.net",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.att.com/support/article/email-support/KM1010523/",
+  "shortName": "AT&T",
+  "pop3": [
+   {
+    "host": "inbound.att.net",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.att.com/support/article/email-support/KM1010523/",
+    "description": {
+     "en": "Configure IMAP and POP3 for att, sbcglobal, swbell etc."
+    }
+   }
+  ]
+ },
+ {
+  "id": "bay.wind.ne.jp",
+  "name": "群馬インターネット",
+  "domains": [
+   "bay.wind.ne.jp",
+   "bay.wind.jp",
+   "bay.wind.co.jp",
+   "bay.gunmanet.or.jp",
+   "bay.gunmanet.ne.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "bay.wind.ne.jp",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "wind",
+  "pop3": [
+   {
+    "host": "bay.wind.ne.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bb-niigata.jp",
+  "name": "ＢＢにいがた",
+  "domains": [
+   "bb-niigata.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "pop.bb-niigata.jp",
+    "port": 25,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "BB-NIIGATA",
+  "pop3": [
+   {
+    "host": "pop.bb-niigata.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bell.net",
+  "name": "Bell Canada email",
+  "domains": [
+   "bell.net",
+   "sympatico.ca"
+  ],
+  "imap": [
+   {
+    "host": "imap.bell.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtphm.sympatico.ca",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "BC Mail",
+  "pop3": [
+   {
+    "host": "pophm.sympatico.ca",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "biglobe.ne.jp",
+  "name": "Biglobe",
+  "domains": [
+   "biglobe.ne.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "mail.biglobe.ne.jp",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "Biglobe",
+  "pop3": [
+   {
+    "host": "mail.biglobe.ne.jp",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "bigpond.com",
+  "name": "Telstra Mail",
+  "domains": [
+   "bigpond.com",
+   "bigpond.net.au",
+   "telstra.com",
+   "bigpond.net"
+  ],
+  "imap": [
+   {
+    "host": "imap.telstra.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.telstra.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.telstra.com.au/support/category/email/telstra-mail/recommended-email-settings-for-telstra-mail",
+  "shortName": "TMail",
+  "pop3": [
+   {
+    "host": "pop.telstra.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.telstra.com.au/support/category/email/telstra-mail/recommended-email-settings-for-telstra-mail",
+    "description": {
+     "en": "Recommended email settings"
+    }
+   }
+  ]
+ },
+ {
+  "id": "bluewin.ch",
+  "name": "Bluewin Mail",
+  "domains": [
+   "bluewin.ch",
+   "bluemail.ch"
+  ],
+  "imap": [
+   {
+    "host": "imaps.bluewin.ch",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtpauths.bluewin.ch",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://smtphelp.bluewin.ch/",
+  "shortName": "Bluewin",
+  "pop3": [
+   {
+    "host": "pop3s.bluewin.ch",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "webmailUrl": "https://webmail.bluewin.ch/",
+  "docs": [
+   {
+    "url": "http://smtphelp.bluewin.ch/"
+   }
+  ]
+ },
+ {
+  "id": "blueyonder.co.uk",
+  "name": "Blueyonder: Virgin Media Mail",
+  "domains": [
+   "blueyonder.co.uk"
+  ],
+  "imap": [
+   {
+    "host": "imap4.blueyonder.co.uk",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.blueyonder.co.uk",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://help.virginmedia.com/system/web/custom/viewArticle.jsp?uuid=55BDAE35-DD97-4F7C-A013-0BC0D6D21002",
+  "shortName": "Blueyonder",
+  "pop3": [
+   {
+    "host": "pop3.blueyonder.co.uk",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://help.virginmedia.com/system/web/custom/viewArticle.jsp?uuid=55BDAE35-DD97-4F7C-A013-0BC0D6D21002",
+    "description": {
+     "en": "Email settings for addresses ending in @blueyonder.co.uk"
+    }
+   },
+   {
+    "url": "http://help.virginmedia.com/system/web/custom/viewArticle.jsp?uuid=68845FEE-4C8F-49D0-B169-AB9C60AE6915",
+    "description": {
+     "en": "Using Thunderbird with Virgin Media Mail"
+    }
+   }
+  ]
+ },
+ {
+  "id": "bol.com.br",
+  "name": "BOL - Brasil Online",
+  "domains": [
+   "bol.com.br"
+  ],
+  "imap": [
+   {
+    "host": "imap.bol.com.br",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtps.bol.com.br",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtps.bol.com.br",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://email.bol.uol.com.br/ajuda/configuracao/imap-thunderbird-3-bol.jhtm",
+  "shortName": "BOL",
+  "pop3": [
+   {
+    "host": "pop3.bol.com.br",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://email.bol.uol.com.br/ajuda/configuracao/imap-thunderbird-3-bol.jhtm",
+    "description": {
+     "en-US": "Step-by-step instructions to configure Thunderbird with IMAP",
+     "pt-BR": "Configuração IMAP do Mozilla Thunderbird passo-a-passo"
+    }
+   }
+  ]
+ },
+ {
+  "id": "broba.cc",
+  "name": "ぷらら",
+  "domains": [
+   "garnet.broba.cc",
+   "amethyst.broba.cc",
+   "coral.broba.ccv",
+   "diamond.broba.cc"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "mail.broba.cc",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "ぷらら",
+  "pop3": [
+   {
+    "host": "mail.broba.cc",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "btinternet.com",
+  "name": "BT Mail",
+  "domains": [
+   "btinternet.com",
+   "btopenworld.com",
+   "talk21.com"
+  ],
+  "imap": [
+   {
+    "host": "mail.btinternet.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "mail.btinternet.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://www.bt.com/help/email",
+  "shortName": "BT Mail",
+  "pop3": [
+   {
+    "host": "mail.btinternet.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://www.bt.com/help/email",
+    "description": {
+     "en": "Configure BT Mail"
+    }
+   }
+  ]
+ },
+ {
+  "id": "cc9.ne.jp",
+  "name": "CC9インターネットサービス",
+  "domains": [
+   "cc9.ne.jp"
+  ],
+  "imap": [
+   {
+    "host": "pop.cc9.ne.jp",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "msa.cc9.ne.jp",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.cc9.jp/support/internet/software/mail/thunderbird.html",
+  "shortName": "CC9",
+  "pop3": [
+   {
+    "host": "pop.cc9.ne.jp",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.cc9.jp/support/internet/software/mail/thunderbird.html"
+   },
+   {
+    "url": "https://www.cc9.jp/support/internet/software/mail/imap.html"
+   }
+  ]
+ },
+ {
+  "id": "cek.ne.jp",
+  "name": "エコーシティー・駒ケ岳",
+  "domains": [
+   "cek.ne.jp"
+  ],
+  "imap": [
+   {
+    "host": "imap.cek.ne.jp",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtpa.cek.ne.jp",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://faq.cek.co.jp/CEK%E3%81%AE%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%BF%E3%81%86%E6%96%B9%E6%B3%95-64b667d02407c8001bfabc95",
+  "shortName": "CEK-Net",
+  "pop3": [
+   {
+    "host": "mail.cek.ne.jp",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://faq.cek.co.jp/CEK%E3%81%AE%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%BF%E3%81%86%E6%96%B9%E6%B3%95-64b667d02407c8001bfabc95"
+   }
+  ]
+ },
+ {
+  "id": "centurylink.net",
+  "name": "CenturyLink.net",
+  "domains": [
+   "centurylink.net",
+   "embarqmail.com"
+  ],
+  "imap": [
+   {
+    "host": "mail.centurylink.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.centurylink.net",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://www.centurylink.com/help/index.php?assetid=239",
+  "shortName": "CenturyLink",
+  "pop3": [
+   {
+    "host": "pop.centurylink.net",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://www.centurylink.com/help/index.php?assetid=239",
+    "description": {
+     "en": "CenturyLink | How to set up your email to go through POP3 and SMTP"
+    }
+   },
+   {
+    "url": "http://www.centurylink.com/help/index.php?assetid=239#centurylinknet",
+    "description": {
+     "en": "CenturyLink | How to set up your email to go through POP3 and SMTP #Centurylink.net"
+    }
+   },
+   {
+    "url": "http://www.centurylink.com/help/index.php?assetid=239#embarqmail",
+    "description": {
+     "en": "CenturyLink | How to set up your email to go through POP3 and SMTP #Embarqmail.com"
+    }
+   }
+  ]
+ },
+ {
+  "id": "centurytel.net",
+  "name": "CenturyTel.net",
+  "domains": [
+   "centurytel.net",
+   "clds.net",
+   "coastalnow.net",
+   "cochill.net",
+   "cswnet.com",
+   "emadisonriver.com",
+   "emadisonriver.net",
+   "gallatinriver.net",
+   "grics.net",
+   "gulftel.com",
+   "madisonriver.biz",
+   "mebtel.net"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "smtpauth.centurytel.net",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://www.centurylink.com/help/index.php?assetid=239",
+  "shortName": "CenturyTel",
+  "pop3": [
+   {
+    "host": "pop.centurytel.net",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://www.centurylink.com/help/index.php?assetid=239",
+    "description": {
+     "en": "CenturyLink | How to set up your email to go through POP3 and SMTP"
+    }
+   },
+   {
+    "url": "http://www.centurylink.com/help/index.php?assetid=239#other",
+    "description": {
+     "en": "CenturyLink | How to set up your email to go through POP3 and SMTP #Other POP3 and SMTP Settings"
+    }
+   }
+  ]
+ },
+ {
+  "id": "cgl.ucsf.edu",
+  "name": "UCSF CGL email",
+  "domains": [
+   "cgl.ucsf.edu"
+  ],
+  "imap": [
+   {
+    "host": "plato.cgl.ucsf.edu",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "plato.cgl.ucsf.edu",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "CGL email"
+ },
+ {
+  "id": "charter.net",
+  "name": "Charter Communications",
+  "domains": [
+   "charter.net",
+   "spectrum.net",
+   "bresnan.net"
+  ],
+  "imap": [
+   {
+    "host": "mobile.charter.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "mobile.charter.net",
+    "port": 587,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.spectrum.net/support/internet/mobile-email-setup",
+  "shortName": "Charter",
+  "pop3": [
+   {
+    "host": "mobile.charter.net",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.spectrum.net/support/internet/mobile-email-setup",
+    "description": {
+     "": "Spectrum Email Server Settings"
+    }
+   }
+  ]
+ },
+ {
+  "id": "clio.ne.jp",
+  "name": "CLIO-Net移管サービス",
+  "domains": [
+   "clio.ne.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "mail.clio.ne.jp",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "shortName": "CLIO-Net",
+  "pop3": [
+   {
+    "host": "mail.clio.ne.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "clustermail.de",
+  "name": "Clustermail",
+  "domains": [
+   "clustermail.de"
+  ],
+  "imap": [
+   {
+    "host": "mail.clustermail.de",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "mail.clustermail.de",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "mail.clustermail.de",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted"
+    ]
+   },
+   {
+    "host": "mail.clustermail.de",
+    "port": 25,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "helpUrl": "https://ratiokontakt.de/news/2015/01/01/faq-wie-muss-mein-e-mail-client-konfiguriert-werden/",
+  "shortName": "Clustermail",
+  "pop3": [
+   {
+    "host": "mail.clustermail.de",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "mail.clustermail.de",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://ratiokontakt.de/news/2015/01/01/faq-wie-muss-mein-e-mail-client-konfiguriert-werden/",
+    "description": {
+     "de": "Allgemeine Beschreibung der Einstellungen",
+     "en": "Generic settings page"
+    }
+   },
+   {
+    "url": "https://ratiokontakt.de/news/2015/01/01/faq-wie-muss-mein-e-mail-client-konfiguriert-werden/",
+    "description": {
+     "de": "TB 2.0 IMAP-Einstellungen",
+     "en": "TB 2.0 IMAP settings"
+    }
+   }
+  ]
+ },
+ {
+  "id": "co1.wind.ne.jp",
+  "name": "群馬インターネット",
+  "domains": [
+   "co1.wind.ne.jp",
+   "co1.wind.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "co1.wind.ne.jp",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "wind",
+  "pop3": [
+   {
+    "host": "co1.wind.ne.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "co2.wind.ne.jp",
+  "name": "群馬インターネット",
+  "domains": [
+   "co2.wind.ne.jp",
+   "co2.wind.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "co2.wind.ne.jp",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "wind",
+  "pop3": [
+   {
+    "host": "co2.wind.ne.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "co3.wind.ne.jp",
+  "name": "群馬インターネット",
+  "domains": [
+   "co3.wind.ne.jp",
+   "co3.wind.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "co3.wind.ne.jp",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "wind",
+  "pop3": [
+   {
+    "host": "co3.wind.ne.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "comcast.net",
+  "name": "Comcast",
+  "domains": [
+   "comcast.net"
+  ],
+  "imap": [
+   {
+    "host": "imap.comcast.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "imap.comcast.net",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.comcast.net",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.comcast.net",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.xfinity.com/support/articles/setting-up-thunderbird",
+  "shortName": "Comcast",
+  "pop3": [
+   {
+    "host": "mail.comcast.net",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "mail.comcast.net",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "oauth2": {
+   "issuer": "comcast.net",
+   "scope": "https://email.comcast.net/ profile openid",
+   "authUrl": "https://oauth.xfinity.com/oauth/authorize",
+   "tokenUrl": "https://oauth.xfinity.com/oauth/token"
+  },
+  "docs": [
+   {
+    "url": "https://www.xfinity.com/support/articles/setting-up-thunderbird",
+    "description": {
+     "en": "Instructions for setting up Thunderbird for use with comcast.net for home users.",
+     "es": "Instrucciones para instalar Thunderbird para el uso de Comcast para dueños de casa."
+    }
+   },
+   {
+    "url": "https://www.xfinity.com/support/articles/third-party-email-access",
+    "description": {
+     "en": "Instructions for enabling IMAP/POP/SMTP access for third-party clients"
+    }
+   }
+  ]
+ },
+ {
+  "id": "coremail",
+  "name": "Coremail",
+  "mx": [
+   "icoremail.net"
+  ],
+  "imap": [
+   {
+    "host": "imap.icoremail.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.icoremail.net",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "coremail-cluster",
+  "name": "Coremail",
+  "mx": [
+   "*.{cluster}.icoremail.net"
+  ],
+  "imap": [
+   {
+    "host": "{cluster}.icoremail.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "{cluster}.icoremail.net",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cty-net.ne.jp",
+  "name": "CTY Mail",
+  "domains": [
+   "cty-net.ne.jp",
+   "m2.cty-net.ne.jp",
+   "m3.cty-net.ne.jp",
+   "m4.cty-net.ne.jp",
+   "m5.cty-net.ne.jp",
+   "m6.cty-net.ne.jp",
+   "m7.cty-net.ne.jp",
+   "m8.cty-net.ne.jp",
+   "m9.cty-net.ne.jp",
+   "cty-net.com"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "smtps.cty-net.ne.jp",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "CTYMail",
+  "pop3": [
+   {
+    "host": "pops.cty-net.ne.jp",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dan.wind.ne.jp",
+  "name": "群馬インターネット",
+  "domains": [
+   "dan.wind.ne.jp",
+   "dan.wind.jp",
+   "dan.wind.co.jp",
+   "dan.gunmanet.or.jp",
+   "dan.gunmanet.ne.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "dan.wind.ne.jp",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "wind",
+  "pop3": [
+   {
+    "host": "dan.wind.ne.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "daum.net",
+  "name": "Daum Mail",
+  "domains": [
+   "daum.net"
+  ],
+  "imap": [
+   {
+    "host": "imap.daum.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.daum.net",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "helpUrl": "https://cs.daum.net/faq/43/9234.html#24081",
+  "shortName": "Daum",
+  "docs": [
+   {
+    "url": "https://cs.daum.net/faq/43/9234.html#24081"
+   }
+  ]
+ },
+ {
+  "id": "dd.iij4u.or.jp",
+  "name": "IIJ4U",
+  "domains": [
+   "dd.iij4u.or.jp",
+   "ff.iij4u.or.jp",
+   "hh.iij4u.or.jp",
+   "kk.iij4u.or.jp",
+   "nn.iij4u.or.jp",
+   "pp.iij4u.or.jp",
+   "rr.iij4u.or.jp",
+   "ss.iij4u.or.jp",
+   "bc.iij4u.or.jp",
+   "bk.iij4u.or.jp",
+   "bp.iij4u.or.jp",
+   "bu.iij4u.or.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "mbox.iij4u.or.jp",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%.%EMAILDOMAIN%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "shortName": "IIJ4U",
+  "pop3": [
+   {
+    "host": "mbox.iij4u.or.jp",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%.%EMAILDOMAIN%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "df.eu",
+  "name": "domainFACTORY",
+  "domains": [
+   "ispgateway.de"
+  ],
+  "imap": [
+   {
+    "host": "sslin.df.eu",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "sslout.df.eu",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://www.df.eu/de/service/df-faq/e-mail/mail-programme/",
+  "shortName": "domainFACTORY",
+  "pop3": [
+   {
+    "host": "sslin.df.eu",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "webmailUrl": "https://webmail.df.eu",
+  "docs": [
+   {
+    "url": "http://www.df.eu/de/service/df-faq/e-mail/mail-programme/",
+    "description": {
+     "en": "Configuration of Thunderbird (2, 3, 3.1) and others"
+    }
+   }
+  ]
+ },
+ {
+  "id": "dondominio.com",
+  "name": "DonDominio/MrDomain",
+  "domains": [
+   "dondominio.com"
+  ],
+  "imap": [
+   {
+    "host": "imap.dondominio.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.dondominio.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "DonDominio/MrDomain",
+  "pop3": [
+   {
+    "host": "pop3.dondominio.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "webmailUrl": "https://webmail.dondominio.com"
+ },
+ {
+  "id": "earthlink.net",
+  "name": "EarthLink",
+  "domains": [
+   "earthlink.net",
+   "mindspring.com",
+   "ix.netcom.com"
+  ],
+  "imap": [
+   {
+    "host": "imap.earthlink.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtpauth.earthlink.net",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://help.earthlink.net/portal/en/kb/articles/email-server-settings",
+  "shortName": "EarthLink",
+  "pop3": [
+   {
+    "host": "pop.earthlink.net",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://help.earthlink.net/portal/en/kb/articles/email-server-settings"
+   }
+  ]
+ },
+ {
+  "id": "educa.madrid.org",
+  "name": "Plataforma EducaMadrid",
+  "domains": [
+   "educa.madrid.org"
+  ],
+  "imap": [
+   {
+    "host": "imap.educa.madrid.org",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp01.educa.madrid.org",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp01.educa.madrid.org",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://documentacion.educa.madrid.org/books/correo/page/clientes-de-correo",
+  "shortName": "EducaMadrid",
+  "pop3": [
+   {
+    "host": "pop.educa.madrid.org",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "webmailUrl": "https://correoweb.educa.madrid.org/",
+  "docs": [
+   {
+    "url": "https://documentacion.educa.madrid.org/books/correo/page/clientes-de-correo"
+   }
+  ]
+ },
+ {
+  "id": "elpasotel.net",
+  "name": "Elpasotel.net",
+  "domains": [
+   "elpasotel.net"
+  ],
+  "imap": [
+   {
+    "host": "mail.elpasotel.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.elpasotel.net",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://www.centurylink.com/help/index.php?assetid=239",
+  "shortName": "Elpasotel",
+  "pop3": [
+   {
+    "host": "pop3.elpasotel.net",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://www.centurylink.com/help/index.php?assetid=239",
+    "description": {
+     "en": "CenturyLink | How to set up your email to go through POP3 and SMTP"
+    }
+   },
+   {
+    "url": "http://www.centurylink.com/help/index.php?assetid=239#elpasotelnet",
+    "description": {
+     "en": "CenturyLink | How to set up your email to go through POP3 and SMTP #Elpasotel.net"
+    }
+   }
+  ]
+ },
+ {
+  "id": "email.it",
+  "name": "email.it",
+  "domains": [
+   "email.it"
+  ],
+  "imap": [
+   {
+    "host": "in.email.it",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "out.email.it",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.email.it/faq",
+  "shortName": "email.it",
+  "pop3": [
+   {
+    "host": "pop.email.it",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.email.it/faq"
+   }
+  ]
+ },
+ {
+  "id": "emailsrvr.com",
+  "name": "Rackspace Email Hosting",
+  "domains": [
+   "emailsrvr.com"
+  ],
+  "imap": [
+   {
+    "host": "secure.emailsrvr.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "secure.emailsrvr.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "rackspace"
+ },
+ {
+  "id": "fastmail-mx",
+  "name": "Fastmail",
+  "mx": [
+   "messagingengine.com"
+  ],
+  "imap": [
+   {
+    "host": "imap.fastmail.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.fastmail.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "fastwebnet.it",
+  "name": "Fastweb",
+  "domains": [
+   "fastwebnet.it"
+  ],
+  "imap": [
+   {
+    "host": "imap.fastwebnet.it",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.fastwebnet.it",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.fastweb.it/fastmail/guida/mail_POPeIMAP/",
+  "shortName": "Fastweb",
+  "pop3": [
+   {
+    "host": "pop.fastwebnet.it",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.fastweb.it/fastmail/guida/mail_POPeIMAP/"
+   }
+  ]
+ },
+ {
+  "id": "free.fr",
+  "name": "Freebox",
+  "domains": [
+   "free.fr"
+  ],
+  "imap": [
+   {
+    "host": "imap.free.fr",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.free.fr",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://assistance.free.fr/articles/configurer-de-maniere-avancee-mon-logiciel-de-messagerie-609",
+  "shortName": "Freebox",
+  "pop3": [
+   {
+    "host": "pop.free.fr",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "webmailUrl": "https://webmail.free.fr",
+  "docs": [
+   {
+    "url": "https://assistance.free.fr/articles/configurer-de-maniere-avancee-mon-logiciel-de-messagerie-609",
+    "description": {
+     "en": "How to set up Thunderbird with Free.fr",
+     "fr": "Configurer Thunderbird avec Free"
+    }
+   }
+  ]
+ },
+ {
+  "id": "gandi.net",
+  "name": "Gandi Mail",
+  "domains": [
+   "gandi.net"
+  ],
+  "imap": [
+   {
+    "host": "mail.gandi.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "mail.gandi.net",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "mail.gandi.net",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "mail.gandi.net",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://wiki.gandi.net/en/mail/standard-settings",
+  "shortName": "Gandi",
+  "pop3": [
+   {
+    "host": "mail.gandi.net",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "mail.gandi.net",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://wiki.gandi.net/en/mail/standard-settings",
+    "description": {
+     "en": "Generic settings page"
+    }
+   },
+   {
+    "url": "http://wiki.gandi.net/en/mail/create-email-account",
+    "description": {
+     "en": "Create new mailbox, including MX servers to use in DNS"
+    }
+   }
+  ]
+ },
+ {
+  "id": "gigahost.dk",
+  "name": "Gigahost Mail",
+  "domains": [
+   "gigahost.dk"
+  ],
+  "imap": [
+   {
+    "host": "mail.gigahost.dk",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.gigahost.dk",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://support.gigahost.dk/?cat=7",
+  "shortName": "Gigahost",
+  "pop3": [
+   {
+    "host": "mail.gigahost.dk",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://support.gigahost.dk/?cat=7",
+    "description": {
+     "da": "Support til mail opsætning"
+    }
+   }
+  ]
+ },
+ {
+  "id": "gmx.com",
+  "name": "GMX Freemail",
+  "domains": [
+   "gmx.com",
+   "gmx.tm",
+   "gmx.us",
+   "gmx.co.uk",
+   "gmx.es",
+   "gmx.fr",
+   "gmx.ca",
+   "gmx.cn",
+   "gmx.co.in",
+   "gmx.com.br",
+   "gmx.com.my",
+   "gmx.hk",
+   "gmx.ie",
+   "gmx.ph",
+   "gmx.pt",
+   "gmx.ru",
+   "gmx.se",
+   "gmx.sg",
+   "gmx.tw",
+   "gmx.com.tr",
+   "gmx.it",
+   "gmx.li"
+  ],
+  "imap": [
+   {
+    "host": "imap.gmx.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "imap.gmx.com",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "mail.gmx.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "mail.gmx.com",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "GMX",
+  "pop3": [
+   {
+    "host": "pop.gmx.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "pop.gmx.com",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "gmx.net",
+  "name": "GMX Freemail",
+  "domains": [
+   "gmx.net",
+   "gmx.de",
+   "gmx.at",
+   "gmx.ch",
+   "gmx.eu",
+   "gmx.biz",
+   "gmx.org",
+   "gmx.info",
+   "mein.gmx",
+   "mail.gmx",
+   "email.gmx"
+  ],
+  "imap": [
+   {
+    "host": "imap.gmx.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "imap.gmx.net",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "mail.gmx.net",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "mail.gmx.net",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://hilfe.gmx.net/pop-imap/imap/imap-serverdaten.html",
+  "enable": {
+   "url": "https://hilfe.gmx.net/pop-imap/einschalten.html",
+   "instructions": {
+    "": "You must allow access via POP3 & IMAP once in the e-mail settings of your account!",
+    "de": "Sie müssen einmalig den Zugriff über POP3 & IMAP in den E-Mail-Einstellungen Ihres Kontos erlauben!"
+   }
+  },
+  "shortName": "GMX",
+  "pop3": [
+   {
+    "host": "pop.gmx.net",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "pop.gmx.net",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://hilfe.gmx.net/pop-imap/imap/imap-serverdaten.html"
+   }
+  ]
+ },
+ {
+  "id": "go.tvm.ne.jp",
+  "name": "テレビ松本ケーブルインターネットサービス",
+  "domains": [
+   "go.tvm.ne.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "go.tvm.ne.jp",
+    "port": 25,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "TVM-Net",
+  "pop3": [
+   {
+    "host": "go.tvm.ne.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "goo.jp",
+  "name": "goo メールアドバンス",
+  "domains": [
+   "goo.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "smtp.mail.goo.ne.jp",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "goo",
+  "pop3": [
+   {
+    "host": "pop.mail.goo.ne.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "googlemail.com",
+  "name": "Google Mail",
+  "domains": [
+   "gmail.com",
+   "googlemail.com",
+   "google.com",
+   "jazztel.es",
+   "nyu.edu"
+  ],
+  "imap": [
+   {
+    "host": "imap.gmail.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.gmail.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://mail.google.com/support/bin/answer.py?answer=13273",
+  "shortName": "GMail",
+  "pop3": [
+   {
+    "host": "pop.gmail.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "oauth2": {
+   "issuer": "accounts.google.com",
+   "scope": "https://mail.google.com/ https://www.googleapis.com/auth/contacts https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/carddav",
+   "authUrl": "https://accounts.google.com/o/oauth2/auth",
+   "tokenUrl": "https://www.googleapis.com/oauth2/v3/token"
+  },
+  "webmailUrl": "https://accounts.google.com/ServiceLogin?service=mail&continue=http://mail.google.com/mail/",
+  "docs": [
+   {
+    "url": "http://mail.google.com/support/bin/answer.py?answer=13273",
+    "description": {
+     "": "How to enable IMAP/POP3 in GMail"
+    }
+   },
+   {
+    "url": "http://mail.google.com/support/bin/topic.py?topic=12806",
+    "description": {
+     "": "How to configure email clients for IMAP"
+    }
+   },
+   {
+    "url": "http://mail.google.com/support/bin/topic.py?topic=12805",
+    "description": {
+     "": "How to configure email clients for POP3"
+    }
+   },
+   {
+    "url": "http://mail.google.com/support/bin/answer.py?answer=86399",
+    "description": {
+     "": "How to configure TB 2.0 for POP3"
+    }
+   }
+  ]
+ },
+ {
+  "id": "gransy.com",
+  "name": "G-Hosting.cz a Station.cz",
+  "domains": [
+   "gransy.com",
+   "internetserver.cz"
+  ],
+  "imap": [
+   {
+    "host": "imap.gransy.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "imap.gransy.com",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.gransy.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.gransy.com",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.gransy.com",
+    "port": 25,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://emaily.eu/",
+  "shortName": "G-Hosting.cz a Station.cz",
+  "pop3": [
+   {
+    "host": "imap.gransy.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "imap.gransy.com",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://emaily.eu/",
+    "description": {
+     "cs": "Nastavení poštovního klienta",
+     "en": "E-mail client settings"
+    }
+   }
+  ]
+ },
+ {
+  "id": "hal.ne.jp",
+  "name": "ハルインターネット",
+  "domains": [
+   "hal.ne.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "mail.hal.ne.jp",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "shortName": "HAL",
+  "pop3": [
+   {
+    "host": "mail.hal.ne.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hana.or.jp",
+  "name": "きたうら花ねっと",
+  "domains": [
+   "hana.or.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "mail.hana.or.jp",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "花ねっと",
+  "pop3": [
+   {
+    "host": "mail.hana.or.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "hetzner.de",
+  "name": "Hetzner",
+  "domains": [
+   "your-server.de"
+  ],
+  "imap": [
+   {
+    "host": "mail.your-server.de",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "mail.your-server.de",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "Hetzner"
+ },
+ {
+  "id": "hotmail.com",
+  "name": "Outlook.com (Microsoft)",
+  "domains": [
+   "hotmail.com",
+   "live.com",
+   "msn.com",
+   "outlook.com",
+   "windowslive.com",
+   "outlook.at",
+   "outlook.be",
+   "outlook.cl",
+   "outlook.cz",
+   "outlook.de",
+   "outlook.dk",
+   "outlook.es",
+   "outlook.fr",
+   "outlook.hu",
+   "outlook.ie",
+   "outlook.in",
+   "outlook.it",
+   "outlook.jp",
+   "outlook.kr",
+   "outlook.lv",
+   "outlook.my",
+   "outlook.ph",
+   "outlook.pt",
+   "outlook.sa",
+   "outlook.sg",
+   "outlook.sk",
+   "outlook.co.id",
+   "outlook.co.il",
+   "outlook.co.th",
+   "outlook.com.ar",
+   "outlook.com.au",
+   "outlook.com.br",
+   "outlook.com.gr",
+   "outlook.com.tr",
+   "outlook.com.vn",
+   "hotmail.be",
+   "hotmail.ca",
+   "hotmail.cl",
+   "hotmail.cz",
+   "hotmail.de",
+   "hotmail.dk",
+   "hotmail.es",
+   "hotmail.fi",
+   "hotmail.fr",
+   "hotmail.gr",
+   "hotmail.hu",
+   "hotmail.it",
+   "hotmail.lt",
+   "hotmail.lv",
+   "hotmail.my",
+   "hotmail.nl",
+   "hotmail.no",
+   "hotmail.ph",
+   "hotmail.rs",
+   "hotmail.se",
+   "hotmail.sg",
+   "hotmail.sk",
+   "hotmail.co.id",
+   "hotmail.co.il",
+   "hotmail.co.in",
+   "hotmail.co.jp",
+   "hotmail.co.kr",
+   "hotmail.co.th",
+   "hotmail.co.uk",
+   "hotmail.co.za",
+   "hotmail.com.ar",
+   "hotmail.com.au",
+   "hotmail.com.br",
+   "hotmail.com.hk",
+   "hotmail.com.tr",
+   "hotmail.com.tw",
+   "hotmail.com.vn",
+   "live.at",
+   "live.be",
+   "live.ca",
+   "live.cl",
+   "live.cn",
+   "live.de",
+   "live.dk",
+   "live.fi",
+   "live.fr",
+   "live.hk",
+   "live.ie",
+   "live.in",
+   "live.it",
+   "live.jp",
+   "live.nl",
+   "live.no",
+   "live.ru",
+   "live.se",
+   "live.co.jp",
+   "live.co.kr",
+   "live.co.uk",
+   "live.co.za",
+   "live.com.ar",
+   "live.com.au",
+   "live.com.mx",
+   "live.com.my",
+   "live.com.ph",
+   "live.com.pt",
+   "live.com.sg",
+   "livemail.tw",
+   "olc.protection.outlook.com"
+  ],
+  "imap": [
+   {
+    "host": "outlook.office365.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp-mail.outlook.com",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2"
+    ]
+   }
+  ],
+  "helpUrl": "https://support.office.com/article/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040",
+  "shortName": "Outlook",
+  "pop3": [
+   {
+    "host": "outlook.office365.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2"
+    ]
+   }
+  ],
+  "webmailUrl": "https://www.outlook.com/",
+  "docs": [
+   {
+    "url": "https://support.office.com/article/pop-imap-and-smtp-settings-for-outlook-com-d088b986-291d-42b8-9564-9c414e2aa040",
+    "description": {
+     "en": "POP, IMAP, and SMTP settings for Outlook.com"
+    }
+   }
+  ]
+ },
+ {
+  "id": "i.softbank.jp",
+  "name": "SoftBank",
+  "domains": [
+   "i.softbank.jp"
+  ],
+  "imap": [
+   {
+    "host": "imap.softbank.jp",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.softbank.jp",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "SoftBank"
+ },
+ {
+  "id": "ic-net.or.jp",
+  "name": "IC-NET",
+  "domains": [
+   "ic-net.or.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "smtp.ic-net.or.jp",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "IC-NET",
+  "pop3": [
+   {
+    "host": "mail.ic-net.or.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "iijmio-mail.jp",
+  "name": "IIJmio セーフティメール",
+  "domains": [
+   "iijmio-mail.jp",
+   "miomio.jp",
+   "miobox.jp",
+   "e23.jp",
+   "x-il.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "mbox.iijmio-mail.jp",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%.%EMAILDOMAIN%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "shortName": "IIJmio",
+  "pop3": [
+   {
+    "host": "mbox.iijmio-mail.jp",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%.%EMAILDOMAIN%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "iiyama-catv.ne.jp",
+  "name": "ケーブルテレビiネット飯山",
+  "domains": [
+   "iiyama-catv.ne.jp"
+  ],
+  "imap": [
+   {
+    "host": "imap.iiyama-catv.ne.jp",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtpa.iiyama-catv.ne.jp",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://www.iiyama-catv.ne.jp/custom25.html",
+  "shortName": "iネット飯山",
+  "pop3": [
+   {
+    "host": "mail.iiyama-catv.ne.jp",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://www.iiyama-catv.ne.jp/custom25.html"
+   }
+  ]
+ },
+ {
+  "id": "inbox.lv",
+  "name": "%EMAILDOMAIN%",
+  "domains": [
+   "inbox.lv",
+   "inbox.eu",
+   "inbox.lt",
+   "inbox.la"
+  ],
+  "imap": [
+   {
+    "host": "mail.%EMAILDOMAIN%",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "mail.%EMAILDOMAIN%",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://help.inbox.lv/?keyword=email_clients_settings",
+  "enable": {
+   "url": "https://help.inbox.lv/?keyword=email_clients_access",
+   "instructions": {
+    "": "Enable external POP3/IMAP and SMTP access in your account settings",
+    "et": "POP3/IMAP juurdepääs, e-posti programmi parool",
+    "lt": "POP3/IMAP prieiga, pašto programų slaptažodis",
+    "lv": "Ieslēgt POP3/IMAP pieeju savam kontam",
+    "ru": "Доступ POP3/IMAP, пароль для почтовой программы"
+   }
+  },
+  "shortName": "%EMAILDOMAIN%",
+  "pop3": [
+   {
+    "host": "mail.%EMAILDOMAIN%",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "webmailUrl": "https://login.%EMAILDOMAIN%",
+  "docs": [
+   {
+    "url": "https://help.inbox.lv/?keyword=email_clients_settings",
+    "description": {
+     "en": "Configure Thunderbird 2.0 for IMAP/POP3/SMTP",
+     "lt": "Pašto programų nustatymai (IMAP, POP3, SMTP)",
+     "lv": "E-pasta klientu konfigurācija (IMAP/POP3/SMTP)",
+     "ru": "Настройки для почтовых программ (IMAP, POP3,SMTP и др.)"
+    }
+   }
+  ]
+ },
+ {
+  "id": "inet-shibata.or.jp",
+  "name": "インターネット新発田",
+  "domains": [
+   "inet-shibata.or.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "po.inet-shibata.or.jp",
+    "port": 25,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "INET-SHIBATA",
+  "pop3": [
+   {
+    "host": "po.inet-shibata.or.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ipax.at",
+  "name": "IPAX Internet Services",
+  "domains": [
+   "ipax.at"
+  ],
+  "imap": [
+   {
+    "host": "mail.ipax.at",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "mail.ipax.at",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "IPAX"
+ },
+ {
+  "id": "iwafune.ne.jp",
+  "name": "インターネットいわふね",
+  "domains": [
+   "iwafune.ne.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "po.iwafune.ne.jp",
+    "port": 25,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "IWAFUNE",
+  "pop3": [
+   {
+    "host": "po.iwafune.ne.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "janis.or.jp",
+  "name": "Janis",
+  "domains": [
+   "janis.or.jp"
+  ],
+  "imap": [
+   {
+    "host": "imaps.janis.or.jp",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtps.janis.or.jp",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.janis.jp/support/user/mail-settings",
+  "shortName": "Janis",
+  "pop3": [
+   {
+    "host": "pops.janis.or.jp",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.janis.jp/support/user/mail-settings"
+   }
+  ]
+ },
+ {
+  "id": "jet.ne.jp",
+  "name": "JETINTERNET",
+  "domains": [
+   "jet.ne.jp"
+  ],
+  "imap": [
+   {
+    "host": "imap.jet.ne.jp",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.jet.ne.jp",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.jet.ne.jp",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.jet.ne.jp/index.php?id=477",
+  "shortName": "JET",
+  "pop3": [
+   {
+    "host": "pop.jet.ne.jp",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.jet.ne.jp/index.php?id=477"
+   }
+  ]
+ },
+ {
+  "id": "ji.jet.ne.jp",
+  "name": "JETINTERNET",
+  "domains": [
+   "ji.jet.ne.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "smtp02.jet.ne.jp",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "shortName": "JET",
+  "pop3": [
+   {
+    "host": "pop02.jet.ne.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "kelcom.net",
+  "name": "KELCOM Internet",
+  "domains": [
+   "kelcom.net"
+  ],
+  "imap": [
+   {
+    "host": "pop.kelcom.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.kelcom.net",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://portal.kelcom.net/support/faq/6/",
+  "shortName": "KELCOM",
+  "pop3": [
+   {
+    "host": "pop.kelcom.net",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://portal.kelcom.net/support/faq/6/"
+   }
+  ]
+ },
+ {
+  "id": "kl.wind.ne.jp",
+  "name": "群馬インターネット",
+  "domains": [
+   "kl.wind.ne.jp",
+   "kl.wind.jp",
+   "kl.wind.co.jp",
+   "kl.gunmanet.or.jp",
+   "kl.gunmanet.ne.jp",
+   "k1.wind.ne.jp",
+   "k1.wind.jp",
+   "k1.gunmanet.or.jp",
+   "k1.gunmanet.ne.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "kl.wind.ne.jp",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "wind",
+  "pop3": [
+   {
+    "host": "kl.wind.ne.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "kokuyou.ne.jp",
+  "name": "長和町黒耀の里ゆいねっと",
+  "domains": [
+   "kokuyou.ne.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "smtp.kokuyou.ne.jp",
+    "port": 25,
+    "security": "plain",
+    "auth": [
+     "none"
+    ]
+   }
+  ],
+  "shortName": "ゆいねっと",
+  "pop3": [
+   {
+    "host": "mail.kokuyou.ne.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "kpnmail.nl",
+  "name": "KPN E-mail",
+  "domains": [
+   "kpnmail.nl",
+   "kpnplanet.nl",
+   "planet.nl",
+   "wxs.nl",
+   "hetnet.nl",
+   "freeler.nl",
+   "snelnet.net",
+   "on.nl",
+   "onsbrabantnet.nl",
+   "onsmail.nl",
+   "onsnet.nu",
+   "onsneteindhoven.nl",
+   "onsnetnuenen.nl",
+   "xs4all.nl",
+   "telfort.nl",
+   "tip.nl",
+   "tiscali.nl",
+   "tiscalimail.nl"
+  ],
+  "imap": [
+   {
+    "host": "imap.kpnmail.nl",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "imap.kpnmail.nl",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.kpnmail.nl",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.kpnmail.nl",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.kpn.com/service/internet/e-mail/instellen-laptop-pc.htm",
+  "shortName": "KPN",
+  "pop3": [
+   {
+    "host": "pop.kpnmail.nl",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "pop.kpnmail.nl",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.kpn.com/service/internet/e-mail/instellen-laptop-pc.htm"
+   },
+   {
+    "url": "https://www.kpn.com/service/internet/e-mail/instellen-laptop-pc/e-mail-op-mozilla-thunderbird.htm"
+   }
+  ]
+ },
+ {
+  "id": "laposte.net",
+  "name": "LaPoste",
+  "domains": [
+   "laposte.net"
+  ],
+  "imap": [
+   {
+    "host": "imap.laposte.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.laposte.net",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://www.geckozone.org/forum/viewtopic.php?f=4&t=93118",
+  "shortName": "LaPoste",
+  "pop3": [
+   {
+    "host": "pop.laposte.net",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://www.geckozone.org/forum/viewtopic.php?f=4&t=93118",
+    "description": {
+     "en": "News on the Geckozone website (unofficial)",
+     "fr": "Annonce sur le site de Geckozone (non-officiel)"
+    }
+   },
+   {
+    "url": "http://aide.laposte.net/mon-courrier-electronique/recevoir-et-lire-mon-courrier/96.html",
+    "description": {
+     "en": "Official support (no SSL)",
+     "fr": "Aide officielle (non-SSL)"
+    }
+   }
+  ]
+ },
+ {
+  "id": "libero.it",
+  "name": "Libero Mail",
+  "domains": [
+   "libero.it",
+   "iol.it",
+   "blu.it",
+   "inwind.it",
+   "giallo.it"
+  ],
+  "imap": [
+   {
+    "host": "imapmail.libero.it",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.libero.it",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://aiuto.libero.it/articolo/mail/parametri-di-configurazione-per-il-client-di-posta/",
+  "shortName": "Libero",
+  "pop3": [
+   {
+    "host": "popmail.libero.it",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://aiuto.libero.it/articolo/mail/parametri-di-configurazione-per-il-client-di-posta/"
+   }
+  ]
+ },
+ {
+  "id": "mahoroba.ne.jp",
+  "name": "インターネットまほろば",
+  "domains": [
+   "mahoroba.ne.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "mail.mahoroba.ne.jp",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "まほろば",
+  "pop3": [
+   {
+    "host": "mail.mahoroba.ne.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mail.com",
+  "name": "mail.com",
+  "domains": [
+   "mail.com",
+   "mail.org",
+   "email.com",
+   "post.com",
+   "usa.com",
+   "accountant.com",
+   "consultant.com",
+   "dr.com",
+   "engineer.com",
+   "cheerful.com",
+   "techie.com",
+   "linuxmail.org",
+   "europe.com",
+   "london.com",
+   "uymail.com",
+   "myself.com",
+   "iname.com",
+   "writeme.com",
+   "2die4.com",
+   "activist.com",
+   "adexec.com",
+   "africamail.com",
+   "aircraftmail.com",
+   "alabama.usa.com",
+   "alaska.usa.com",
+   "allergist.com",
+   "alumni.com",
+   "alumnidirector.com",
+   "americamail.com",
+   "amorous.com",
+   "angelic.com",
+   "archaeologist.com",
+   "arizona.usa.com",
+   "artlover.com",
+   "asia-mail.com",
+   "atheist.com",
+   "australiamail.com",
+   "bartender.net",
+   "berlin.com",
+   "bigger.com",
+   "bikerider.com",
+   "birdlover.com",
+   "blader.com",
+   "boardermail.com",
+   "brazilmail.com",
+   "brew-master.com",
+   "california.usa.com",
+   "californiamail.com",
+   "caress.com",
+   "catlover.com",
+   "chef.net",
+   "chemist.com",
+   "chinamail.com",
+   "clerk.com",
+   "cliffhanger.com",
+   "collector.org",
+   "columnist.com",
+   "comic.com",
+   "computer4u.com",
+   "contractor.net",
+   "coolsite.net",
+   "counsellor.com",
+   "count.com",
+   "couple.com",
+   "cutey.com",
+   "cyberdude.com",
+   "cybergal.com",
+   "cyber-wizard.com",
+   "dallasmail.com",
+   "dbzmail.com",
+   "deliveryman.com",
+   "diplomats.com",
+   "disciples.com",
+   "doctor.com",
+   "doglover.com",
+   "doramail.com",
+   "dublin.com",
+   "earthling.net",
+   "elvisfan.com",
+   "englandmail.com",
+   "europemail.com",
+   "execs.com",
+   "fan.com",
+   "feelings.com",
+   "financier.com",
+   "fireman.net",
+   "florida.usa.com",
+   "footballer.com",
+   "gardener.com",
+   "geologist.com",
+   "germanymail.com",
+   "graduate.org",
+   "graphic-designer.com",
+   "hackermail.com",
+   "hairdresser.net",
+   "hilarious.com",
+   "hockeymail.com",
+   "homemail.com",
+   "hot-shot.com",
+   "hour.com",
+   "humanoid.net",
+   "illinois.usa.com",
+   "innocent.com",
+   "inorbit.com",
+   "instruction.com",
+   "instructor.net",
+   "insurer.com",
+   "irelandmail.com",
+   "italymail.com",
+   "japan.com",
+   "journalist.com",
+   "keromail.com",
+   "kittymail.com",
+   "koreamail.com",
+   "lawyer.com",
+   "legislator.com",
+   "loveable.com",
+   "lovecat.com",
+   "mad.scientist.com",
+   "madonnafan.com",
+   "madrid.com",
+   "marchmail.com",
+   "mexicomail.com",
+   "mindless.com",
+   "minister.com",
+   "mobsters.com",
+   "monarchy.com",
+   "moscowmail.com",
+   "munich.com",
+   "musician.org",
+   "muslim.com",
+   "newyork.usa.com",
+   "null.net",
+   "nycmail.com",
+   "oath.com",
+   "optician.com",
+   "pacificwest.com",
+   "petlover.com",
+   "photographer.net",
+   "playful.com",
+   "poetic.com",
+   "politician.com",
+   "popstar.com",
+   "presidency.com",
+   "priest.com",
+   "programmer.net",
+   "publicist.com",
+   "realtyagent.com",
+   "reborn.com",
+   "reggaefan.com",
+   "religious.com",
+   "repairman.com",
+   "representative.com",
+   "rescueteam.com",
+   "revenue.com",
+   "rocketship.com",
+   "rockfan.com",
+   "rome.com",
+   "royal.net",
+   "saintly.com",
+   "salesperson.net",
+   "sanfranmail.com",
+   "scientist.com",
+   "scotlandmail.com",
+   "secretary.net",
+   "seductive.com",
+   "singapore.com",
+   "snakebite.com",
+   "songwriter.net",
+   "soon.com",
+   "spainmail.com",
+   "teachers.org",
+   "technologist.com",
+   "texas.usa.com",
+   "thegame.com",
+   "therapist.net",
+   "toke.com",
+   "tokyo.com",
+   "toothfairy.com",
+   "tvstar.com",
+   "umpire.com",
+   "wallet.com",
+   "webname.com",
+   "weirdness.com",
+   "who.net",
+   "whoever.com",
+   "winning.com",
+   "witty.com",
+   "worker.com",
+   "workmail.com",
+   "yours.com"
+  ],
+  "imap": [
+   {
+    "host": "imap.mail.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "imap.mail.com",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.mail.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.mail.com",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "mail.com",
+  "pop3": [
+   {
+    "host": "pop.mail.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "pop.mail.com",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mail.dk",
+  "name": "Yousee Mail",
+  "domains": [
+   "mail.dk"
+  ],
+  "imap": [
+   {
+    "host": "imap.mail.dk",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "asmtp.mail.dk",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://yousee.dk/hjaelp/artikler/hvad-er-mine-serveroplysninger-til-yousee-mail",
+  "shortName": "Yousee",
+  "pop3": [
+   {
+    "host": "pop3.mail.dk",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://yousee.dk/hjaelp/artikler/hvad-er-mine-serveroplysninger-til-yousee-mail"
+   }
+  ]
+ },
+ {
+  "id": "mail.ee",
+  "name": "%EMAILDOMAIN%",
+  "domains": [
+   "mail.ee"
+  ],
+  "imap": [
+   {
+    "host": "%EMAILDOMAIN%",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "%EMAILDOMAIN%",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://help.mail.ee/?keyword=email_clients_settings",
+  "enable": {
+   "url": "https://help.mail.ee/?keyword=email_clients_access",
+   "instructions": {
+    "": "Enable external POP3/IMAP and SMTP access in your account settings",
+    "et": "POP3/IMAP juurdepääs, e-posti programmi parool",
+    "lt": "POP3/IMAP prieiga, pašto programų slaptažodis",
+    "lv": "Ieslēgt POP3/IMAP pieeju savam kontam",
+    "ru": "Доступ POP3/IMAP, пароль для почтовой программы"
+   }
+  },
+  "shortName": "%EMAILDOMAIN%",
+  "pop3": [
+   {
+    "host": "%EMAILDOMAIN%",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "webmailUrl": "https://login.%EMAILDOMAIN%",
+  "docs": [
+   {
+    "url": "https://help.mail.ee/?keyword=email_clients_settings",
+    "description": {
+     "en": "Configure Thunderbird 2.0 for IMAP/POP3/SMTP",
+     "lt": "Pašto programų nustatymai (IMAP, POP3, SMTP)",
+     "lv": "E-pasta klientu konfigurācija (IMAP/POP3/SMTP)",
+     "ru": "Настройки для почтовых программ (IMAP, POP3,SMTP и др.)"
+    }
+   }
+  ]
+ },
+ {
+  "id": "mail.iwafune.ne.jp",
+  "name": "インターネットいわふね",
+  "domains": [
+   "mail.iwafune.ne.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "mail.iwafune.ne.jp",
+    "port": 25,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "IWAFUNE",
+  "pop3": [
+   {
+    "host": "mail.iwafune.ne.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mail.jubii.dk",
+  "name": "Jubii Mail",
+  "domains": [
+   "mail.jubii.dk",
+   "christensen.dk",
+   "christiansen.dk",
+   "eriksen.dk",
+   "frandsen.dk",
+   "frederiksen.dk",
+   "hansen.dk",
+   "henningsen.dk",
+   "henriksen.dk",
+   "iversen.dk",
+   "jacobsen.dk",
+   "jakobsen.dk",
+   "johansen.dk",
+   "knudsen.dk",
+   "larsen.dk",
+   "laursen.dk",
+   "madsen.dk",
+   "mathiesen.dk",
+   "mikaelsen.dk",
+   "mikkelsen.dk",
+   "mortensen.dk",
+   "olesen.dk",
+   "pedersen.dk",
+   "petersen.dk",
+   "poulsen.dk",
+   "rasmussen.dk",
+   "simonsen.dk",
+   "sorensen.dk",
+   "svendsen.dk",
+   "thomsen.dk",
+   "vestergaard.dk",
+   "123mail.dk",
+   "12fuel.dk",
+   "12mail.dk",
+   "12move.dk",
+   "2night.dk",
+   "2senior.dk",
+   "9260.dk",
+   "anarki.dk",
+   "anderledes.dk",
+   "backbone.dk",
+   "bedstemail.dk",
+   "begavet.dk",
+   "bemybaby.dk",
+   "bitnisse.dk",
+   "city.dk",
+   "cool.dk",
+   "cyberdude.dk",
+   "cyberjunkie.dk",
+   "dancemail.dk",
+   "e-box.dk",
+   "elinstallatoer.dk",
+   "elsker.dk",
+   "elvis.dk",
+   "email.dk",
+   "e-mail.dk",
+   "e-postboks.dk",
+   "fald.dk",
+   "fedt.dk",
+   "feminin.dk",
+   "flirt.dk",
+   "forening.dk",
+   "fraekkert.dk",
+   "funkymail.dk",
+   "gadefejer.dk",
+   "gaf-net.dk",
+   "gason.dk",
+   "grin.dk",
+   "groovymail.dk",
+   "grov.dk",
+   "hammergod.dk",
+   "hardworking.dk",
+   "heaven.dk",
+   "heavymail.dk",
+   "hemmelig.dk",
+   "hippie.dk",
+   "huleboer.dk",
+   "husk-mig.dk",
+   "hyperpost.dk",
+   "iloveu.dk",
+   "inbound.dk",
+   "indbakke.dk",
+   "infile.dk",
+   "info.dk",
+   "io.dk",
+   "it.dk",
+   "jubii.dk",
+   "jubiichat.dk",
+   "jubiiconnect.dk",
+   "jubiigames.dk",
+   "jubiimail.dk",
+   "jubiipost.dk",
+   "jubiipostadresse.dk",
+   "jyde.dk",
+   "klog.dk",
+   "knus.dk",
+   "krudt.dk",
+   "kulturel.dk",
+   "kvalme.dk",
+   "lazy.dk",
+   "lystig.dk",
+   "mail4.dk",
+   "mail6.dk",
+   "mail8.dk",
+   "maildanmark.dk",
+   "mail-mig.dk",
+   "mailroyal.dk",
+   "mailster.dk",
+   "manmail.dk",
+   "maskulin.dk",
+   "min-postkasse.dk",
+   "minprivatemail.dk",
+   "musling.dk",
+   "natteliv.dk",
+   "netbruger.dk",
+   "nicemail.dk",
+   "nospam.dk",
+   "pedal.dk",
+   "pengemand.dk",
+   "pokerface.dk",
+   "popme.dk",
+   "postman.dk",
+   "privatmail.dk",
+   "privatpost.dk",
+   "quake.dk",
+   "ready.dk",
+   "retromail.dk",
+   "ringmybell.dk",
+   "secret.dk",
+   "sexysurfer.dk",
+   "skrivnu.dk",
+   "sleepy.dk",
+   "sporty.dk",
+   "submail.dk",
+   "superbruger.dk",
+   "talent.dk",
+   "tanke.dk",
+   "tastmig.dk",
+   "taxidriver.dk",
+   "teens.dk",
+   "teknik.dk",
+   "tjekket.dk",
+   "trashcan.dk",
+   "trustme.dk",
+   "ungdom.dk",
+   "video.dk",
+   "vittig.dk",
+   "wildwildweb.dk",
+   "zoomail.dk",
+   "zybermail.dk"
+  ],
+  "imap": [
+   {
+    "host": "imap.jubii.dk",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.jubii.dk",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://support.jubii.dk/hc/da/articles/200545089-Ops%C3%A6tning-af-e-mail-Andre-klienter",
+  "shortName": "Jubii Mail",
+  "pop3": [
+   {
+    "host": "imap.jubii.dk",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://support.jubii.dk/hc/da/articles/200545089-Ops%C3%A6tning-af-e-mail-Andre-klienter"
+   }
+  ]
+ },
+ {
+  "id": "mail.ru",
+  "name": "mail.ru",
+  "domains": [
+   "mail.ru",
+   "inbox.ru",
+   "list.ru",
+   "bk.ru",
+   "corp.mail.ru"
+  ],
+  "imap": [
+   {
+    "host": "imap.mail.ru",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "imap.mail.ru",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.mail.ru",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.mail.ru",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://help.mail.ru/mail-help/mailer/mt",
+  "shortName": "mail.ru",
+  "pop3": [
+   {
+    "host": "pop.mail.ru",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "pop.mail.ru",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "oauth2": {
+   "issuer": "o2.mail.ru",
+   "scope": "mail.imap",
+   "authUrl": "https://o2.mail.ru/login",
+   "tokenUrl": "https://o2.mail.ru/token"
+  },
+  "docs": [
+   {
+    "url": "http://help.mail.ru/mail-help/mailer/mt",
+    "description": {
+     "en": "IMAP, POP, Thunderbird, with screenshots"
+    }
+   }
+  ]
+ },
+ {
+  "id": "mail.wind.ne.jp",
+  "name": "群馬インターネット",
+  "domains": [
+   "mail.wind.ne.jp",
+   "mail.wind.jp",
+   "mail.wind.co.jp",
+   "mail.gunmanet.or.jp",
+   "mail.gunmanet.ne.jp",
+   "mail.gunmanet.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "mail.wind.ne.jp",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "wind",
+  "pop3": [
+   {
+    "host": "mail.wind.ne.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "me.com",
+  "name": "Apple iCloud",
+  "domains": [
+   "mac.com",
+   "me.com",
+   "icloud.com"
+  ],
+  "imap": [
+   {
+    "host": "imap.mail.me.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.mail.me.com",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://support.apple.com/HT202304",
+  "shortName": "Apple",
+  "docs": [
+   {
+    "url": "https://support.apple.com/HT202304"
+   }
+  ]
+ },
+ {
+  "id": "messagingengine.com",
+  "name": "Fastmail",
+  "domains": [
+   "messagingengine.com"
+  ],
+  "imap": [
+   {
+    "host": "imap.fastmail.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.fastmail.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "Fastmail",
+  "pop3": [
+   {
+    "host": "pop.fastmail.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "webmailUrl": "https://app.fastmail.com/login/?domain=%EMAILDOMAIN%"
+ },
+ {
+  "id": "mit.edu",
+  "name": "MIT Mail",
+  "domains": [
+   "mit.edu"
+  ],
+  "imap": [
+   {
+    "host": "outlook.office365.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "outgoing.mit.edu",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://kb.mit.edu/confluence/display/istcontrib/Microsoft+365+Email+and+Calendaring+-+Configure+via+IMAP+Settings",
+  "shortName": "MIT",
+  "docs": [
+   {
+    "url": "https://kb.mit.edu/confluence/display/istcontrib/Microsoft+365+Email+and+Calendaring+-+Configure+via+IMAP+Settings",
+    "description": {
+     "en": "Microsoft 365 Email and Calendaring - Configure via IMAP Settings"
+    }
+   }
+  ]
+ },
+ {
+  "id": "ml.murakami.ne.jp",
+  "name": "インターネットいわふね",
+  "domains": [
+   "ml.murakami.ne.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "ml.murakami.ne.jp",
+    "port": 25,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "IWAFUNE",
+  "pop3": [
+   {
+    "host": "ml.murakami.ne.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mnet.ne.jp",
+  "name": "Mnet メール サービス",
+  "domains": [
+   "mnet.ne.jp"
+  ],
+  "imap": [
+   {
+    "host": "mail.mnet.ne.jp",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted",
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "mail.mnet.ne.jp",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "mail.mnet.ne.jp",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "Mnetメール",
+  "pop3": [
+   {
+    "host": "mail.mnet.ne.jp",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted",
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "mail.mnet.ne.jp",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted",
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mopera.net",
+  "name": "mopera U",
+  "domains": [
+   "mopera.net"
+  ],
+  "imap": [
+   {
+    "host": "mail.mopera.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "mail.mopera.net",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "mail.mopera.net",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-encrypted"
+    ]
+   },
+   {
+    "host": "mail.mopera.net",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "shortName": "mopera U",
+  "pop3": [
+   {
+    "host": "mail.mopera.net",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "mail.mopera.net",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mx1.tiki.ne.jp",
+  "name": "TikiTikiインターネット",
+  "domains": [
+   "mx1.tiki.ne.jp",
+   "mx2.et.tiki.ne.jp",
+   "mx2.tiki.ne.jp",
+   "mx2.wt.tiki.ne.jp",
+   "mx3.et.tiki.ne.jp",
+   "mx3.tiki.ne.jp",
+   "mx4.et.tiki.ne.jp",
+   "mx4.tiki.ne.jp",
+   "mx5.et.tiki.ne.jp",
+   "mx5.tiki.ne.jp",
+   "mx6.et.tiki.ne.jp",
+   "mx6.tiki.ne.jp",
+   "mx7.tiki.ne.jp",
+   "mx8.tiki.ne.jp",
+   "mx9.tiki.ne.jp",
+   "mx21.tiki.ne.jp",
+   "mx22.tiki.ne.jp",
+   "mx31.tiki.ne.jp",
+   "mx32.tiki.ne.jp",
+   "mx35.tiki.ne.jp",
+   "mx36.tiki.ne.jp",
+   "mx41.tiki.ne.jp",
+   "mx51.et.tiki.ne.jp",
+   "mx51.tiki.ne.jp",
+   "mx52.tiki.ne.jp",
+   "mx61.tiki.ne.jp",
+   "mx71.tiki.ne.jp",
+   "mx81.tiki.ne.jp",
+   "mx82.tiki.ne.jp",
+   "mx91.tiki.ne.jp",
+   "ma100.tiki.ne.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "smtp-auth.tiki.ne.jp",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "TikiTiki",
+  "pop3": [
+   {
+    "host": "%EMAILDOMAIN%",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "naver.com",
+  "name": "Naver",
+  "domains": [
+   "naver.com"
+  ],
+  "imap": [
+   {
+    "host": "imap.naver.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.naver.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "helpUrl": "https://help.naver.com/service/30029/contents/21342?osType=PC&lang=ko",
+  "shortName": "Naver",
+  "pop3": [
+   {
+    "host": "pop.naver.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://help.naver.com/service/30029/contents/21342?osType=PC&lang=ko"
+   }
+  ]
+ },
+ {
+  "id": "netease-qiye",
+  "name": "网易企业邮箱",
+  "mx": [
+   "qiye.163.com",
+   "qiye163mx*.mxmail.netease.com",
+   "hzmx*.mxmail.netease.com"
+  ],
+  "imap": [
+   {
+    "host": "imap.qiye.163.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.qiye.163.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "netease-ym",
+  "name": "网易免费企业邮箱",
+  "mx": [
+   "ym.163.com"
+  ],
+  "imap": [
+   {
+    "host": "imap.ym.163.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.ym.163.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "nifty.com",
+  "name": "@nifty",
+  "domains": [
+   "nifty.com"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "smtp.nifty.com",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "shortName": "@nifty",
+  "pop3": [
+   {
+    "host": "pop.nifty.com",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "nili.ca",
+  "name": "Nili",
+  "domains": [
+   "nili.ca"
+  ],
+  "imap": [
+   {
+    "host": "email.nili.email",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "email.nili.email",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "email.nili.email",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://nili.ca/knowledge-base/how-to-connect-email-clients-to-servers/",
+  "pop3": [
+   {
+    "host": "email.nili.email",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://nili.ca/knowledge-base/how-to-connect-email-clients-to-servers/",
+    "description": {
+     "en": "POP, IMAP, and SMTP settings for Nili"
+    }
+   }
+  ]
+ },
+ {
+  "id": "nsat.jp",
+  "name": "ＢＢにいがた",
+  "domains": [
+   "nsat.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "mail.nsat.jp",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "shortName": "NSAT",
+  "pop3": [
+   {
+    "host": "mail.nsat.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ntlworld.com",
+  "name": "NTL World: Virgin Media Mail",
+  "domains": [
+   "ntlworld.com"
+  ],
+  "imap": [
+   {
+    "host": "imap.ntlworld.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.ntlworld.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://help.virginmedia.com/system/web/custom/viewArticle.jsp?uuid=C30B1D91-FA00-48EE-928A-A77F7C7D1EFA",
+  "shortName": "NTL World",
+  "pop3": [
+   {
+    "host": "pop3.ntlworld.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://help.virginmedia.com/system/web/custom/viewArticle.jsp?uuid=C30B1D91-FA00-48EE-928A-A77F7C7D1EFA",
+    "description": {
+     "en": "Email settings for addresses ending in @ntlworld.com"
+    }
+   },
+   {
+    "url": "http://help.virginmedia.com/system/web/custom/viewArticle.jsp?uuid=68845FEE-4C8F-49D0-B169-AB9C60AE6915",
+    "description": {
+     "en": "Using Thunderbird with Virgin Media Mail"
+    }
+   }
+  ]
+ },
+ {
+  "id": "o2.pl",
+  "name": "o2 Poczta",
+  "domains": [
+   "o2.pl",
+   "go2.pl",
+   "tlen.pl",
+   "prokonto.pl"
+  ],
+  "imap": [
+   {
+    "host": "poczta.o2.pl",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "poczta.o2.pl",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "poczta.o2.pl",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://pomoc.o2.pl/jak-skonfigurowac-program-pocztowy",
+  "shortName": "o2",
+  "pop3": [
+   {
+    "host": "poczta.o2.pl",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://pomoc.o2.pl/jak-skonfigurowac-program-pocztowy",
+    "description": {
+     "pl": "Jak skonfigurować program pocztowy"
+    }
+   },
+   {
+    "url": "https://pomoc.o2.pl/aktywacja-dostepu-dla-programow-pocztowych",
+    "description": {
+     "pl": "Aktywacja dostępu dla programów pocztowych"
+    }
+   }
+  ]
+ },
+ {
+  "id": "ocn.ne.jp",
+  "name": "OCN",
+  "domains": [
+   "ocn.ne.jp",
+   "ocn.ad.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "smtp.ocn.ne.jp",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "OCN",
+  "pop3": [
+   {
+    "host": "pop.ocn.ne.jp",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "office365.com",
+  "name": "Microsoft 365",
+  "domains": [
+   "office365.com",
+   "onmicrosoft.com",
+   "mail.protection.outlook.com"
+  ],
+  "imap": [
+   {
+    "host": "outlook.office365.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.office365.com",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2"
+    ]
+   }
+  ],
+  "shortName": "Microsoft 365",
+  "pop3": [
+   {
+    "host": "outlook.office365.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2"
+    ]
+   }
+  ],
+  "other": [
+   {
+    "type": "ews",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2"
+    ],
+    "url": "https://outlook.office365.com/ews/exchange.asmx"
+   },
+   {
+    "type": "owa",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2"
+    ],
+    "url": "https://outlook.office365.com/owa/"
+   },
+   {
+    "type": "graph",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2"
+    ],
+    "url": "https://graph.microsoft.com/"
+   },
+   {
+    "type": "exchange",
+    "host": "outlook.office365.com",
+    "port": 443,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2"
+    ],
+    "url": "https://outlook.office365.com/owa/"
+   }
+  ],
+  "oauth2": {
+   "issuer": "login.microsoftonline.com",
+   "scope": "https://outlook.office365.com/IMAP.AccessAsUser.All https://outlook.office365.com/POP.AccessAsUser.All https://outlook.office365.com/SMTP.Send offline_access",
+   "authUrl": "https://login.microsoftonline.com/common/oauth2/v2.0/authorize",
+   "tokenUrl": "https://login.microsoftonline.com/common/oauth2/v2.0/token"
+  }
+ },
+ {
+  "id": "one.com",
+  "name": "one.com",
+  "domains": [
+   "one.com"
+  ],
+  "imap": [
+   {
+    "host": "imap.one.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "send.one.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "one.com"
+ },
+ {
+  "id": "one.cz",
+  "name": "Webhosting Registrator.cz Mail",
+  "domains": [
+   "one.cz"
+  ],
+  "imap": [
+   {
+    "host": "imap.registrator.cz",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.registrator.cz",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "Registrator.cz",
+  "pop3": [
+   {
+    "host": "pop3.registrator.cz",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "onet.pl",
+  "name": "Onet Poczta",
+  "domains": [
+   "onet.pl",
+   "onet.eu",
+   "poczta.onet.pl",
+   "poczta.onet.eu",
+   "op.pl",
+   "vp.pl",
+   "autograf.pl",
+   "buziaczek.pl",
+   "amorki.pl",
+   "republika.pl",
+   "adres.pl",
+   "cyberia.pl",
+   "onet.com.pl",
+   "opoczta.pl",
+   "pseudonim.pl",
+   "spoko.pl",
+   "vip.onet.pl"
+  ],
+  "imap": [
+   {
+    "host": "imap.poczta.onet.pl",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.poczta.onet.pl",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.poczta.onet.pl",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://pomoc.poczta.onet.pl/baza-wiedzy/konfiguracja-poczty-w-programie-mozilla-thunderbird/",
+  "shortName": "Onet",
+  "pop3": [
+   {
+    "host": "pop3.poczta.onet.pl",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://pomoc.poczta.onet.pl/baza-wiedzy/konfiguracja-poczty-w-programie-mozilla-thunderbird/",
+    "description": {
+     "pl": "Konfiguracja poczty: Mozilla Thunderbird"
+    }
+   }
+  ]
+ },
+ {
+  "id": "orange.fr",
+  "name": "Mail Orange",
+  "domains": [
+   "orange.fr",
+   "wanadoo.fr"
+  ],
+  "imap": [
+   {
+    "host": "imap.orange.fr",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.orange.fr",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://assistance.orange.fr/ordinateurs-peripheriques/installer-et-utiliser/l-utilisation-du-mail-et-du-cloud/mail-orange/le-mail-orange-nouvelle-version/parametrer-la-boite-mail/mail-orange-comment-acceder-a-sa-boite-mail-orange-depuis-une-application-ou-un-logiciel-de-messagerie-non-fourni-par-orange_434630-964290#",
+  "shortName": "Orange",
+  "pop3": [
+   {
+    "host": "pop.orange.fr",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://assistance.orange.fr/ordinateurs-peripheriques/installer-et-utiliser/l-utilisation-du-mail-et-du-cloud/mail-orange/le-mail-orange-nouvelle-version/parametrer-la-boite-mail/mail-orange-comment-acceder-a-sa-boite-mail-orange-depuis-une-application-ou-un-logiciel-de-messagerie-non-fourni-par-orange_434630-964290#"
+   }
+  ]
+ },
+ {
+  "id": "ovh.net",
+  "name": "OVH",
+  "domains": [
+   "ovh.net"
+  ],
+  "imap": [
+   {
+    "host": "ssl0.ovh.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "ssl0.ovh.net",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://guides.ovh.com/ConfigurationEmail",
+  "shortName": "OVH",
+  "pop3": [
+   {
+    "host": "ssl0.ovh.net",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://guides.ovh.com/ConfigurationEmail"
+   }
+  ]
+ },
+ {
+  "id": "oxcloud-eu",
+  "name": "OX Cloud EU",
+  "domains": [
+   "cloudeu.xion.oxcs.net"
+  ],
+  "imap": [
+   {
+    "host": "imap.eu.appsuite.cloud",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "imap.eu.appsuite.cloud",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.eu.appsuite.cloud",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://confluence-public.open-xchange.com/display/OASC/OX+Cloud+%28OX+brand%29+endpoints",
+  "shortName": "OX Cloud EU",
+  "pop3": [
+   {
+    "host": "pop.eu.appsuite.cloud",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://confluence-public.open-xchange.com/display/OASC/OX+Cloud+%28OX+brand%29+endpoints"
+   }
+  ]
+ },
+ {
+  "id": "oxcloud-us",
+  "name": "OX Cloud US",
+  "domains": [
+   "cloudus.xion.oxcs.net"
+  ],
+  "imap": [
+   {
+    "host": "imap.us.appsuite.cloud",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "imap.us.appsuite.cloud",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.us.appsuite.cloud",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://confluence-public.open-xchange.com/display/OASC/OX+Cloud+%28OX+brand%29+endpoints",
+  "shortName": "OX Cloud US",
+  "pop3": [
+   {
+    "host": "pop.us.appsuite.cloud",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://confluence-public.open-xchange.com/display/OASC/OX+Cloud+%28OX+brand%29+endpoints"
+   }
+  ]
+ },
+ {
+  "id": "parabox.or.jp",
+  "name": "パラボックス",
+  "domains": [
+   "parabox.or.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "smtp.parabox.or.jp",
+    "port": 25,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "PARABOX",
+  "pop3": [
+   {
+    "host": "pop3.parabox.or.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pdx.edu",
+  "name": "Portland State University Mail",
+  "domains": [
+   "pdx.edu"
+  ],
+  "imap": [
+   {
+    "host": "psumail.pdx.edu",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted"
+    ]
+   },
+   {
+    "host": "psumail.pdx.edu",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "mailhost.pdx.edu",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted"
+    ]
+   },
+   {
+    "host": "mailhost.pdx.edu",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "helpUrl": "http://oit.pdx.edu/psu-email-settings-advanced-users",
+  "shortName": "PSU Mail",
+  "docs": [
+   {
+    "url": "http://oit.pdx.edu/psu-email-settings-advanced-users",
+    "description": {
+     "en": "Portland State University Email Settings for Advanced Users"
+    }
+   }
+  ]
+ },
+ {
+  "id": "peoplepc.com",
+  "name": "PeoplePC",
+  "domains": [
+   "peoplepc.com"
+  ],
+  "imap": [
+   {
+    "host": "imap.peoplepc.com",
+    "port": 143,
+    "security": "plain",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtpauth.peoplepc.com",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "shortName": "PeoplePC",
+  "pop3": [
+   {
+    "host": "pop.peoplepc.com",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "po.wind.ne.jp",
+  "name": "群馬インターネット",
+  "domains": [
+   "po.wind.ne.jp",
+   "po.wind.jp",
+   "po.wind.co.jp",
+   "po.gunmanet.or.jp",
+   "po.gunmanet.ne.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "po.wind.ne.jp",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "wind",
+  "pop3": [
+   {
+    "host": "po.wind.ne.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "pobox.com",
+  "name": "Pobox",
+  "domains": [
+   "pobox.com"
+  ],
+  "imap": [
+   {
+    "host": "mail.pobox.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "mail.pobox.com",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.pobox.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.pobox.com",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://www.pobox.com/helpspot/index.php?pg=kb.book&id=18",
+  "shortName": "Pobox",
+  "pop3": [
+   {
+    "host": "mail.pobox.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "mail.pobox.com",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://www.pobox.com/helpspot/index.php?pg=kb.book&id=18",
+    "description": {
+     "en": "Set Up Your Email Application to Use Pobox"
+    }
+   }
+  ]
+ },
+ {
+  "id": "pop.shibata.ne.jp",
+  "name": "インターネット新発田",
+  "domains": [
+   "pop.shibata.ne.jp",
+   "ml.shibata.ne.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "%EMAILDOMAIN%",
+    "port": 25,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "INET-SHIBATA",
+  "pop3": [
+   {
+    "host": "%EMAILDOMAIN%",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "postecert.it",
+  "name": "Poste Italiane PosteCert",
+  "domains": [
+   "postecert.it"
+  ],
+  "imap": [
+   {
+    "host": "mail.postecert.it",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "mail.postecert.it",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://postecert.poste.it/pec/configurazione.shtml",
+  "shortName": "PosteCert",
+  "pop3": [
+   {
+    "host": "mail.postecert.it",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://postecert.poste.it/pec/configurazione.shtml"
+   }
+  ]
+ },
+ {
+  "id": "posteo.de",
+  "name": "Posteo",
+  "domains": [
+   "posteo.de",
+   "posteo.at",
+   "posteo.be",
+   "posteo.ca",
+   "posteo.ch",
+   "posteo.cl",
+   "posteo.co",
+   "posteo.co.uk",
+   "posteo.com",
+   "posteo.com.br",
+   "posteo.cr",
+   "posteo.cz",
+   "posteo.dk",
+   "posteo.ee",
+   "posteo.es",
+   "posteo.eu",
+   "posteo.fi",
+   "posteo.gl",
+   "posteo.gr",
+   "posteo.hn",
+   "posteo.hr",
+   "posteo.hu",
+   "posteo.ie",
+   "posteo.in",
+   "posteo.is",
+   "posteo.it",
+   "posteo.jp",
+   "posteo.la",
+   "posteo.li",
+   "posteo.lt",
+   "posteo.lu",
+   "posteo.me",
+   "posteo.mx",
+   "posteo.my",
+   "posteo.net",
+   "posteo.nl",
+   "posteo.no",
+   "posteo.nz",
+   "posteo.org",
+   "posteo.pe",
+   "posteo.pl",
+   "posteo.pm",
+   "posteo.pt",
+   "posteo.ro",
+   "posteo.se",
+   "posteo.sg",
+   "posteo.si",
+   "posteo.tn",
+   "posteo.uk",
+   "posteo.us"
+  ],
+  "imap": [
+   {
+    "host": "posteo.de",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "posteo.de",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "posteo.de",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "posteo.de",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://posteo.de/hilfe/wie-richte-ich-posteo-in-einem-mailprogramm-ein-pop3-imap-und-smtp",
+  "shortName": "Posteo",
+  "pop3": [
+   {
+    "host": "posteo.de",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "posteo.de",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://posteo.de/hilfe/wie-richte-ich-posteo-in-einem-mailprogramm-ein-pop3-imap-und-smtp"
+   }
+  ]
+ },
+ {
+  "id": "ptd.net",
+  "name": "PenTeleData",
+  "domains": [
+   "ptd.net"
+  ],
+  "imap": [
+   {
+    "host": "promail.ptd.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "promail.ptd.net",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "promail.ptd.net",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "promail.ptd.net",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.ptd.net/support/email-communication/how-setup-your-email",
+  "shortName": "PenTeleData",
+  "pop3": [
+   {
+    "host": "promail.ptd.net",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "promail.ptd.net",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.ptd.net/support/email-communication/how-setup-your-email",
+    "description": {
+     "en": "How to set up your email"
+    }
+   }
+  ]
+ },
+ {
+  "id": "q.com",
+  "name": "Q.com",
+  "domains": [
+   "q.com"
+  ],
+  "imap": [
+   {
+    "host": "mail.q.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.q.com",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://www.centurylink.com/help/index.php?assetid=239",
+  "shortName": "Q.com",
+  "pop3": [
+   {
+    "host": "mail.q.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://www.centurylink.com/help/index.php?assetid=239",
+    "description": {
+     "en": "CenturyLink | How to set up your email to go through POP3 and SMTP"
+    }
+   },
+   {
+    "url": "http://www.centurylink.com/help/index.php?assetid=239#qcom",
+    "description": {
+     "en": "CenturyLink | How to set up your email to go through POP3 and SMTP #Q.com"
+    }
+   }
+  ]
+ },
+ {
+  "id": "qq.com",
+  "name": "qq.com",
+  "domains": [
+   "qq.com"
+  ],
+  "imap": [
+   {
+    "host": "imap.qq.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.qq.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "qq.com"
+ },
+ {
+  "id": "rambler.ru",
+  "name": "Rambler Mail",
+  "domains": [
+   "rambler.ru"
+  ],
+  "imap": [
+   {
+    "host": "imap.rambler.ru",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.rambler.ru",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://help.rambler.ru/mail/mail-pochtovye-klienty/1277/",
+  "shortName": "Rambler",
+  "pop3": [
+   {
+    "host": "pop.rambler.ru",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://help.rambler.ru/mail/mail-pochtovye-klienty/1277/",
+    "description": {
+     "ru": "Как настроить Mozilla Thunderbird?"
+    }
+   },
+   {
+    "url": "https://help.rambler.ru/mail/mail-pochtovye-klienty/1275/",
+    "description": {
+     "ru": "Общие настройки для почтовых клиентов"
+    }
+   }
+  ]
+ },
+ {
+  "id": "rediffmail.com",
+  "name": "Rediffmail",
+  "domains": [
+   "rediffmail.com"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "smtp.rediffmail.com",
+    "port": 586,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.rediffmail.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.rediffmail.com",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "Rediff",
+  "pop3": [
+   {
+    "host": "pop.rediffmail.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "pop.rediffmail.com",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "rr.com",
+  "name": "RoadRunner/TWC",
+  "domains": [
+   "rr.com"
+  ],
+  "imap": [
+   {
+    "host": "mail.twc.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "mail.twc.com",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.timewarnercable.com/en/support/faqs/faqs-internet/e-mailacco/incoming-outgoing-server-addresses.html",
+  "shortName": "RR/TWC",
+  "pop3": [
+   {
+    "host": "mail.twc.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.timewarnercable.com/en/support/faqs/faqs-internet/e-mailacco/incoming-outgoing-server-addresses.html"
+   }
+  ]
+ },
+ {
+  "id": "runestone.net",
+  "name": "Runestone Telecom Association",
+  "domains": [
+   "runestone.net"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "mail.runestone.net",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "Runestone",
+  "pop3": [
+   {
+    "host": "mail.runestone.net",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "sapo.pt",
+  "name": "SAPO Mail",
+  "domains": [
+   "sapo.pt",
+   "sapo.cv",
+   "sapo.ao",
+   "sapo.mz",
+   "sapo.tl",
+   "meo.pt"
+  ],
+  "imap": [
+   {
+    "host": "imap.sapo.pt",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.sapo.pt",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://ajuda.sapo.pt/configurar-programa-de-email-70015",
+  "shortName": "SAPO",
+  "pop3": [
+   {
+    "host": "pop.sapo.pt",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://ajuda.sapo.pt/configurar-programa-de-email-70015",
+    "description": {
+     "en": "E-mail settings for addresses ending in @sapo.pt"
+    }
+   }
+  ]
+ },
+ {
+  "id": "schwaz.net",
+  "name": "schwaz.net | Stadtwerke Schwaz",
+  "domains": [
+   "schwaz.net"
+  ],
+  "imap": [
+   {
+    "host": "imap.schwaz.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "mail.schwaz.net",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "mail.schwaz.net",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://stadtwerkeschwaz.at/schwaz-net/anleitungen#Einstellungen",
+  "shortName": "schwaz.net",
+  "pop3": [
+   {
+    "host": "pop3.schwaz.net",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "webmailUrl": "https://webmail.schwaz.net/?login=",
+  "docs": [
+   {
+    "url": "https://stadtwerkeschwaz.at/schwaz-net/anleitungen#Einstellungen",
+    "description": {
+     "de": "Einstellungen eMail-Programm",
+     "en": "Configuration for eMail programs"
+    }
+   }
+  ]
+ },
+ {
+  "id": "seznam.cz",
+  "name": "Seznam",
+  "domains": [
+   "seznam.cz",
+   "email.cz",
+   "post.cz",
+   "spoluzaci.cz"
+  ],
+  "imap": [
+   {
+    "host": "imap.seznam.cz",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.seznam.cz",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://napoveda.seznam.cz/cz/email/imap-pop3-smtp/",
+  "shortName": "Seznam",
+  "pop3": [
+   {
+    "host": "pop3.seznam.cz",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://napoveda.seznam.cz/cz/email/imap-pop3-smtp/"
+   }
+  ]
+ },
+ {
+  "id": "sfr.fr",
+  "name": "SFR / Neuf",
+  "domains": [
+   "sfr.fr",
+   "neuf.fr",
+   "club-internet.fr"
+  ],
+  "imap": [
+   {
+    "host": "imap.sfr.fr",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.sfr.fr",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://assistance.sfr.fr/runtime/service-et-accessoire/sfr-mail/serveurs-messagerie-sfr.html",
+  "shortName": "SFR",
+  "pop3": [
+   {
+    "host": "pop.sfr.fr",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://assistance.sfr.fr/runtime/service-et-accessoire/sfr-mail/serveurs-messagerie-sfr.html",
+    "description": {
+     "fr": "Comment configurer son logiciel de messagerie ?"
+    }
+   }
+  ]
+ },
+ {
+  "id": "sina-net",
+  "name": "新浪企业邮箱",
+  "mx": [
+   "sina.net",
+   "entmail.sina.com"
+  ],
+  "imap": [
+   {
+    "host": "imap.sina.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.sina.net",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "sky.com",
+  "name": "Sky Mail",
+  "domains": [
+   "sky.com"
+  ],
+  "imap": [
+   {
+    "host": "imap.tools.sky.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.tools.sky.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://help.sky.com/articles/get-emails-on-other-clients?product=email",
+  "shortName": "Sky",
+  "pop3": [
+   {
+    "host": "pop.tools.sky.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://help.sky.com/articles/get-emails-on-other-clients?product=email",
+    "description": {
+     "en": "Configure Thunderbird for IMAP or POP3"
+    }
+   }
+  ]
+ },
+ {
+  "id": "skynet.be",
+  "name": "Proximus",
+  "domains": [
+   "skynet.be",
+   "proximus.be",
+   "belgacom.net",
+   "kidcity.be"
+  ],
+  "imap": [
+   {
+    "host": "imap.proximus.be",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "relay.proximus.be",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://support.en.proximus.be/app/answers/detail/residential/internet/e-mails/set-up-your-mailbox/a_id/13753/c/1284,1349,1372,1963",
+  "shortName": "Proximus",
+  "pop3": [
+   {
+    "host": "pop.proximus.be",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://support.en.proximus.be/app/answers/detail/residential/internet/e-mails/set-up-your-mailbox/a_id/13753/c/1284,1349,1372,1963",
+    "description": {
+     "en": "Set up e-mail on your mail application"
+    }
+   }
+  ]
+ },
+ {
+  "id": "so.wind.ne.jp",
+  "name": "群馬インターネット",
+  "domains": [
+   "so.wind.ne.jp",
+   "so.wind.jp"
+  ],
+  "imap": [
+   {
+    "host": "so.wind.ne.jp",
+    "port": 143,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "so.wind.ne.jp",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "wind"
+ },
+ {
+  "id": "strato.de",
+  "name": "Strato",
+  "domains": [
+   "strato.de",
+   "rzone.de"
+  ],
+  "imap": [
+   {
+    "host": "imap.strato.de",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.strato.de",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.strato.de",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.strato.de/faq/mail/externes-e-mail-programm-mit-strato-e-mail-adresse-nutzen/",
+  "shortName": "Strato",
+  "pop3": [
+   {
+    "host": "pop3.strato.de",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.strato.de/faq/mail/externes-e-mail-programm-mit-strato-e-mail-adresse-nutzen/"
+   }
+  ]
+ },
+ {
+  "id": "studenti.univr.it",
+  "name": "Università degli Studi di Verona",
+  "domains": [
+   "studenti.univr.it"
+  ],
+  "imap": [
+   {
+    "host": "univr.mail.cineca.it",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "univr.smtpauth.cineca.it",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://www.univr.it/documenti/Documento/allegati/allegati820269.pdf",
+  "shortName": "UniVR",
+  "pop3": [
+   {
+    "host": "univr.mail.cineca.it",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://www.univr.it/documenti/Documento/allegati/allegati820269.pdf",
+    "description": {
+     "en": "Configure Mozilla Thunderbird to access your University of Verona mailbox (instructions in Italian)",
+     "it": "Configura Mozilla Thunderbird per accedere alla tua casella dell'Università degli Studi di Verona"
+    }
+   },
+   {
+    "url": "http://www.univr.it/documenti/Documento/allegati/allegati030972.pdf",
+    "description": {
+     "en": "Technical specifications",
+     "it": "Specifiche tecniche"
+    }
+   }
+  ]
+ },
+ {
+  "id": "t-online.de",
+  "name": "t-online",
+  "domains": [
+   "t-online.de",
+   "magenta.de"
+  ],
+  "imap": [
+   {
+    "host": "secureimap.t-online.de",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "securesmtp.t-online.de",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "securesmtp.t-online.de",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.telekom.de/hilfe/apps-dienste/e-mail/einstellungen/posteingang-postausgang-server",
+  "enable": {
+   "url": "https://www.telekom.de/hilfe/apps-dienste/e-mail/programme/passwort-verwalten",
+   "instructions": {
+    "": "You need to set up an E-Mail-Password. Attention: The normal password for the T-Online-Website and Webmail does *not* work for email applications.",
+    "de": "Sie müssen ein E-Mail-Passwort einrichten. Achtung: Das Passwort für die T-Online-Website und Webmail funktioniert *nicht* für E-Mail-Programme!"
+   }
+  },
+  "shortName": "t-online",
+  "pop3": [
+   {
+    "host": "securepop.t-online.de",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "webmailUrl": "https://email.t-online.de",
+  "docs": [
+   {
+    "url": "https://www.telekom.de/hilfe/apps-dienste/e-mail/einstellungen/posteingang-postausgang-server"
+   }
+  ]
+ },
+ {
+  "id": "teol.net",
+  "name": "TEOL.net Mail",
+  "domains": [
+   "teol.net",
+   "mtel.tel"
+  ],
+  "imap": [
+   {
+    "host": "imap.teol.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.teol.net",
+    "port": 465,
+    "security": "tls",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://hostingpodrska.teol.net/osticket/kb/faq.php?id=29",
+  "shortName": "TEOL",
+  "pop3": [
+   {
+    "host": "pop3.teol.net",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://hostingpodrska.teol.net/osticket/kb/faq.php?id=29",
+    "description": {
+     "sr": "Koje parametre da koristim prilikom podesavanja Mail klijenta?"
+    }
+   }
+  ]
+ },
+ {
+  "id": "thinline.cz",
+  "name": "Český hosting",
+  "domains": [
+   "thinline.cz"
+  ],
+  "imap": [
+   {
+    "host": "mail.cesky-hosting.cz",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "mail.cesky-hosting.cz",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.cesky-hosting.cz",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.cesky-hosting.cz",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.cesky-hosting.cz",
+    "port": 25,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://www.cesky-hosting.cz/pro-zakazniky/napoveda/nastaveni-postovniho-klienta.html",
+  "shortName": "Český hosting",
+  "pop3": [
+   {
+    "host": "mail.cesky-hosting.cz",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "mail.cesky-hosting.cz",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://www.cesky-hosting.cz/pro-zakazniky/napoveda/nastaveni-postovniho-klienta.html",
+    "description": {
+     "cs": "Nastavení poštovního klienta",
+     "en": "E-mail client settings"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tiki.ne.jp",
+  "name": "TikiTikiインターネット",
+  "domains": [
+   "tiki.ne.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "smtp-auth.tiki.ne.jp",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "TikiTiki",
+  "pop3": [
+   {
+    "host": "mx.tiki.ne.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tim.it",
+  "name": "Tim Mail",
+  "domains": [
+   "tim.it"
+  ],
+  "imap": [
+   {
+    "host": "imap.tim.it",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.tim.it",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.tim.it/assistenza/assistenza-tecnica/mail/configurazione/protocolli-posta",
+  "shortName": "TIM",
+  "pop3": [
+   {
+    "host": "pop.tim.it",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.tim.it/assistenza/assistenza-tecnica/mail/configurazione/protocolli-posta"
+   }
+  ]
+ },
+ {
+  "id": "tiscali.cz",
+  "name": "Tiscali",
+  "domains": [
+   "tiscali.cz",
+   "wo.cz",
+   "worldonline.cz",
+   "worldmail.cz"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "smtp.mail.tiscali.cz",
+    "port": 25,
+    "security": "plain",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "Tiscali",
+  "pop3": [
+   {
+    "host": "pop3.mail.tiscali.cz",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tiscali.it",
+  "name": "Tiscali Mail",
+  "domains": [
+   "tiscali.it"
+  ],
+  "imap": [
+   {
+    "host": "imap.tiscali.it",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.tiscali.it",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "helpUrl": "https://assistenza.tiscali.it/servizi/guida/posta-elettronica/",
+  "shortName": "Tiscali",
+  "pop3": [
+   {
+    "host": "pop.tiscali.it",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-encrypted"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://assistenza.tiscali.it/servizi/guida/posta-elettronica/"
+   }
+  ]
+ },
+ {
+  "id": "umich.edu",
+  "name": "University of Michigan",
+  "domains": [
+   "umich.edu"
+  ],
+  "imap": [
+   {
+    "host": "imap.gmail.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.gmail.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "UMich",
+  "oauth2": {
+   "issuer": "accounts.google.com",
+   "scope": "https://mail.google.com/ https://www.googleapis.com/auth/contacts https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/carddav",
+   "authUrl": "https://accounts.google.com/o/oauth2/auth",
+   "tokenUrl": "https://www.googleapis.com/oauth2/v3/token"
+  }
+ },
+ {
+  "id": "uol.com.br",
+  "name": "UOL",
+  "domains": [
+   "uol.com.br"
+  ],
+  "imap": [
+   {
+    "host": "imap.uol.com.br",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtps.uol.com.br",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://sac.uol.com.br/info/primeiros_passos/config_mozillathunderbird.jhtm",
+  "enable": {
+   "url": "http://bmail.uol.com.br/configuration/imap_access_config",
+   "instructions": {
+    "en-US": "To use IMAP, you must log in to webmail, go to \"Settings\", click \"Activate IMAP\"",
+    "pt-BR": "Para usar o protocolo IMAP, você deve antes acessar as suas Configurações do webmail UOL, clicar na opção \"Ativar IMAP\" e então salvar as modificações."
+   }
+  },
+  "shortName": "UOL",
+  "pop3": [
+   {
+    "host": "pop3.uol.com.br",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://sac.uol.com.br/info/primeiros_passos/config_mozillathunderbird.jhtm",
+    "description": {
+     "pt-BR": "Configuração do Mozilla Thunderbird passo-a-passo"
+    }
+   },
+   {
+    "url": "http://email.uol.com.br/ajuda/imap-thunderbird-3.jhtm",
+    "description": {
+     "pt-BR": "Configuração IMAP do Mozilla Thunderbird passo-a-passo"
+    }
+   },
+   {
+    "url": "http://email.uol.com.br/ajuda/imap.jhtm",
+    "description": {
+     "pt-BR": "O que é IMAP e como ativá-lo na sua conta UOL"
+    }
+   }
+  ]
+ },
+ {
+  "id": "verizon.net",
+  "name": "Verizon Online",
+  "domains": [
+   "verizon.net"
+  ],
+  "imap": [
+   {
+    "host": "imap.aol.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.aol.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://help.aol.com/articles/how-do-i-set-up-other-email-applications-to-send-and-receive-my-verizon-net-mail",
+  "shortName": "Verizon",
+  "pop3": [
+   {
+    "host": "pop.aol.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://help.aol.com/articles/how-do-i-set-up-other-email-applications-to-send-and-receive-my-verizon-net-mail",
+    "description": {
+     "en": "Configure POP and IMAP settings for Verizon.net AOL Mail accounts"
+    }
+   }
+  ]
+ },
+ {
+  "id": "virgilio.it",
+  "name": "Virgilio Mail",
+  "domains": [
+   "virgilio.it"
+  ],
+  "imap": [
+   {
+    "host": "in.virgilio.it",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "out.virgilio.it",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://aiuto.virgilio.it/articolo/mail/configurare-virgilio-mail-con-client-di-posta-imap-e-smtp/",
+  "shortName": "Virgilio",
+  "pop3": [
+   {
+    "host": "in.virgilio.it",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://aiuto.virgilio.it/articolo/mail/configurare-virgilio-mail-con-client-di-posta-imap-e-smtp/"
+   }
+  ]
+ },
+ {
+  "id": "virgin.net",
+  "name": "Virgin.net: Virgin Media Mail",
+  "domains": [
+   "virgin.net"
+  ],
+  "imap": [
+   {
+    "host": "imap4.virgin.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.virgin.net",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://help.virginmedia.com/system/web/custom/viewArticle.jsp?uuid=E7AFC426-B082-4C9E-AAFE-BD8B22824263",
+  "shortName": "Virgin.net",
+  "pop3": [
+   {
+    "host": "pop.virgin.net",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://help.virginmedia.com/system/web/custom/viewArticle.jsp?uuid=E7AFC426-B082-4C9E-AAFE-BD8B22824263",
+    "description": {
+     "en": "Email settings for addresses ending in @virgin.net"
+    }
+   },
+   {
+    "url": "http://help.virginmedia.com/system/web/custom/viewArticle.jsp?uuid=68845FEE-4C8F-49D0-B169-AB9C60AE6915",
+    "description": {
+     "en": "Using Thunderbird with Virgin Media Mail"
+    }
+   }
+  ]
+ },
+ {
+  "id": "virginmedia.com",
+  "name": "Virgin Media Mail",
+  "domains": [
+   "virginmedia.com"
+  ],
+  "imap": [
+   {
+    "host": "imap.virginmedia.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.virginmedia.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://help.virginmedia.com/system/web/custom/viewArticle.jsp?uuid=D78BA863-ACDB-47E4-908B-28214405408B",
+  "shortName": "Virgin Media",
+  "pop3": [
+   {
+    "host": "pop3.virginmedia.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://help.virginmedia.com/system/web/custom/viewArticle.jsp?uuid=D78BA863-ACDB-47E4-908B-28214405408B",
+    "description": {
+     "en": "Email settings for addresses ending in @virginmedia.com"
+    }
+   },
+   {
+    "url": "http://help.virginmedia.com/system/web/custom/viewArticle.jsp?uuid=68845FEE-4C8F-49D0-B169-AB9C60AE6915",
+    "description": {
+     "en": "Using Thunderbird with Virgin Media Mail"
+    }
+   }
+  ]
+ },
+ {
+  "id": "vm.aikis.or.jp",
+  "name": "aikis",
+  "domains": [
+   "vm.aikis.or.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "mail.aikis.or.jp",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "aikis",
+  "pop3": [
+   {
+    "host": "mail.aikis.or.jp",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "vodafonemail.de",
+  "name": "Vodafone",
+  "domains": [
+   "vodafonemail.de",
+   "arcor.de",
+   "kabelmail.de"
+  ],
+  "imap": [
+   {
+    "host": "imap.vodafonemail.de",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.vodafonemail.de",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.vodafone.de/hilfe/vodafone-e-mail-cloud.html#wie-lauten-die-server-einstellungen-fuer-vodafone-e-mail",
+  "shortName": "Vodafone",
+  "pop3": [
+   {
+    "host": "pop3.vodafonemail.de",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.vodafone.de/hilfe/vodafone-e-mail-cloud.html#wie-lauten-die-server-einstellungen-fuer-vodafone-e-mail"
+   }
+  ]
+ },
+ {
+  "id": "vp.tiki.ne.jp",
+  "name": "TikiTikiインターネット",
+  "domains": [
+   "vp.tiki.ne.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "vs.tiki.ne.jp",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "TikiTiki",
+  "pop3": [
+   {
+    "host": "vp.tiki.ne.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "web.de",
+  "name": "WEB.DE Freemail",
+  "domains": [
+   "web.de"
+  ],
+  "imap": [
+   {
+    "host": "imap.web.de",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "imap.web.de",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.web.de",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.web.de",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://hilfe.web.de/pop-imap/imap/imap-serverdaten.html",
+  "enable": {
+   "url": "https://hilfe.web.de/pop-imap/einschalten.html",
+   "instructions": {
+    "": "You must allow access via POP3 & IMAP once in the e-mail settings of your account!",
+    "de": "Sie müssen einmalig den Zugriff über POP3 & IMAP in den E-Mail-Einstellungen Ihres Kontos erlauben!"
+   }
+  },
+  "shortName": "WEB.DE",
+  "pop3": [
+   {
+    "host": "pop3.web.de",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "pop3.web.de",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://hilfe.web.de/pop-imap/imap/imap-serverdaten.html",
+    "description": {
+     "de": "IMAP konfigurieren",
+     "en": "Configure IMAP"
+    }
+   }
+  ]
+ },
+ {
+  "id": "webhuset.no",
+  "name": "Webhuset",
+  "domains": [
+   "webhuset.no"
+  ],
+  "imap": [
+   {
+    "host": "imap.webhuset.no",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.webhuset.no",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.webhuset.no",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.webhuset.no/kb/8/oppsett-for-epost-hos-oss",
+  "shortName": "Webhuset",
+  "pop3": [
+   {
+    "host": "mail.webhuset.no",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.webhuset.no/kb/8/oppsett-for-epost-hos-oss",
+    "description": {
+     "en": "Generic mail settings"
+    }
+   },
+   {
+    "url": "https://www.webhuset.no/kb/8/guide-for-oppsett-av-epostkonto-i-mozilla-thunderbird",
+    "description": {
+     "en": "Thunderbird setup guide"
+    }
+   }
+  ]
+ },
+ {
+  "id": "websupport.sk",
+  "name": "WebSupport",
+  "domains": [
+   "websupport.sk"
+  ],
+  "imap": [
+   {
+    "host": "imap.websupport.sk",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "imap.websupport.sk",
+    "port": 143,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.websupport.sk",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.websupport.sk",
+    "port": 25,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "WebSupport",
+  "pop3": [
+   {
+    "host": "pop.websupport.sk",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "pop.websupport.sk",
+    "port": 110,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "wildwestdomains.com",
+  "name": "Your WildWest domain",
+  "domains": [
+   "secureserver.net"
+  ],
+  "imap": [
+   {
+    "host": "imap.secureserver.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtpout.secureserver.net",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "WildWest",
+  "pop3": [
+   {
+    "host": "pop.secureserver.net",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "wp.pl",
+  "name": "Poczta Wirtualna Polska",
+  "domains": [
+   "wp.pl"
+  ],
+  "imap": [
+   {
+    "host": "imap.wp.pl",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.wp.pl",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "http://poczta.wp.pl/info-pomoc-konfig.html?action=more&id=157",
+  "shortName": "Poczta WP",
+  "pop3": [
+   {
+    "host": "pop3.wp.pl",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "http://poczta.wp.pl/info-pomoc-konfig.html?action=more&id=157",
+    "description": {
+     "pl": "konfiguracja programów pocztowych (Mozilla Thunderbird)"
+    }
+   }
+  ]
+ },
+ {
+  "id": "xp.wind.jp",
+  "name": "群馬インターネット",
+  "domains": [
+   "xp.wind.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "xp.wind.jp",
+    "port": 587,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "wind",
+  "pop3": [
+   {
+    "host": "xp.wind.jp",
+    "port": 110,
+    "security": "plain",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "xtra.co.nz",
+  "name": "Xtra Mail",
+  "domains": [
+   "xtra.co.nz"
+  ],
+  "imap": [
+   {
+    "host": "imap.xtra.co.nz",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "send.xtra.co.nz",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.spark.co.nz/help/get-more/xtra/xtra-mail-setup/",
+  "shortName": "Xtra Mail",
+  "pop3": [
+   {
+    "host": "pop3.xtra.co.nz",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.spark.co.nz/help/get-more/xtra/xtra-mail-setup/",
+    "description": {
+     "en": "Configure IMAP and POP3 for Xtra Mail"
+    }
+   }
+  ]
+ },
+ {
+  "id": "yahoo.co.jp",
+  "name": "Yahoo! メール",
+  "domains": [
+   "yahoo.co.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "smtp.mail.yahoo.co.jp",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "Yahoo! メール",
+  "pop3": [
+   {
+    "host": "pop.mail.yahoo.co.jp",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "yahoo.com",
+  "name": "Yahoo! Mail",
+  "domains": [
+   "yahoo.com",
+   "yahoo.ca",
+   "yahoo.de",
+   "yahoo.it",
+   "yahoo.fr",
+   "yahoo.es",
+   "yahoo.se",
+   "yahoo.co.in",
+   "yahoo.co.uk",
+   "yahoo.co.nz",
+   "yahoo.com.au",
+   "yahoo.com.ar",
+   "yahoo.com.br",
+   "yahoo.com.mx",
+   "ymail.com",
+   "myyahoo.com",
+   "rocketmail.com",
+   "cox.net",
+   "mail.am0.yahoodns.net",
+   "am0.yahoodns.net",
+   "yahoodns.net"
+  ],
+  "imap": [
+   {
+    "host": "imap.mail.yahoo.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "export.imap.mail.yahoo.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.mail.yahoo.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://help.yahoo.com/kb/new-mail-for-desktop/imap-server-settings-yahoo-mail-sln4075.html",
+  "shortName": "Yahoo",
+  "pop3": [
+   {
+    "host": "pop.mail.yahoo.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "OAuth2",
+     "password-cleartext"
+    ]
+   }
+  ],
+  "oauth2": {
+   "issuer": "login.yahoo.com",
+   "scope": "mail-w",
+   "authUrl": "https://api.login.yahoo.com/oauth2/request_auth",
+   "tokenUrl": "https://api.login.yahoo.com/oauth2/get_token"
+  },
+  "webmailUrl": "https://mail.yahoo.com",
+  "docs": [
+   {
+    "url": "https://help.yahoo.com/kb/new-mail-for-desktop/imap-server-settings-yahoo-mail-sln4075.html",
+    "description": {
+     "en": "How to setup email applications with imap to receive Yahoo! mail?"
+    }
+   },
+   {
+    "url": "https://help.yahoo.com/kb/new-mail-for-desktop/pop-access-settings-instructions-yahoo-mail-sln4724.html",
+    "description": {
+     "en": "How to setup email applications with pop to receive Yahoo! mail?"
+    }
+   }
+  ]
+ },
+ {
+  "id": "yandex.ru",
+  "name": "Yandex Mail",
+  "domains": [
+   "yandex.ru",
+   "yandex.com",
+   "yandex.net",
+   "yandex.by",
+   "yandex.kz",
+   "yandex.ua",
+   "ya.ru",
+   "narod.ru"
+  ],
+  "imap": [
+   {
+    "host": "imap.yandex.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.yandex.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "Yandex",
+  "pop3": [
+   {
+    "host": "pop.yandex.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "oauth2": {
+   "issuer": "oauth.yandex.com",
+   "scope": "mail:imap_full mail:smtp",
+   "authUrl": "https://oauth.yandex.com/authorize",
+   "tokenUrl": "https://oauth.yandex.com/token"
+  }
+ },
+ {
+  "id": "ybb.ne.jp",
+  "name": "Yahoo! BB",
+  "domains": [
+   "ybb.ne.jp"
+  ],
+  "imap": [],
+  "smtp": [
+   {
+    "host": "ybbsmtp.mail.yahoo.co.jp",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "Yahoo! BB",
+  "pop3": [
+   {
+    "host": "ybbpop.mail.yahoo.co.jp",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "yeah.net",
+  "name": "yeah.net",
+  "domains": [
+   "yeah.net"
+  ],
+  "imap": [
+   {
+    "host": "imap.yeah.net",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.yeah.net",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "yeah.net"
+ },
+ {
+  "id": "zeelandnet.nl",
+  "name": "ZeelandNet e-mail",
+  "domains": [
+   "zeelandnet.nl"
+  ],
+  "imap": [
+   {
+    "host": "mail.zeelandnet.nl",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "mail.zeelandnet.nl",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "shortName": "ZeelandNet",
+  "pop3": [
+   {
+    "host": "mail.zeelandnet.nl",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILLOCALPART%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ziggo.nl",
+  "name": "Ziggo Mail",
+  "domains": [
+   "hahah.nl",
+   "ziggomail.com",
+   "casema.nl",
+   "zinders.nl",
+   "ziggo.nl",
+   "zeggis.nl",
+   "zeggis.com",
+   "razcall.nl",
+   "razcall.com",
+   "upcmail.nl",
+   "chello.nl",
+   "multiweb.nl",
+   "home.nl",
+   "quicknet.nl"
+  ],
+  "imap": [
+   {
+    "host": "imap.ziggo.nl",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.ziggo.nl",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.ziggo.nl/klantenservice/e-mail/?src=autoconfig",
+  "shortName": "Ziggo",
+  "pop3": [
+   {
+    "host": "pop.ziggo.nl",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.ziggo.nl/klantenservice/e-mail/?src=autoconfig",
+    "description": {
+     "en": "E-mail Settings",
+     "nl": "Instellingen voor e-mail"
+    }
+   }
+  ]
+ },
+ {
+  "id": "zoho-mx-zoho.com",
+  "name": "Zoho Mail",
+  "mx": [
+   "zoho.com"
+  ],
+  "imap": [
+   {
+    "host": "imappro.zoho.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtppro.zoho.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "zoho-mx-zoho.com.au",
+  "name": "Zoho Mail",
+  "mx": [
+   "zoho.com.au"
+  ],
+  "imap": [
+   {
+    "host": "imappro.zoho.com.au",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtppro.zoho.com.au",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "zoho-mx-zoho.com.cn",
+  "name": "Zoho Mail",
+  "mx": [
+   "zoho.com.cn"
+  ],
+  "imap": [
+   {
+    "host": "imappro.zoho.com.cn",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtppro.zoho.com.cn",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "zoho-mx-zoho.eu",
+  "name": "Zoho Mail",
+  "mx": [
+   "zoho.eu"
+  ],
+  "imap": [
+   {
+    "host": "imappro.zoho.eu",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtppro.zoho.eu",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "zoho-mx-zoho.in",
+  "name": "Zoho Mail",
+  "mx": [
+   "zoho.in"
+  ],
+  "imap": [
+   {
+    "host": "imappro.zoho.in",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtppro.zoho.in",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "zoho-mx-zoho.jp",
+  "name": "Zoho Mail",
+  "mx": [
+   "zoho.jp"
+  ],
+  "imap": [
+   {
+    "host": "imappro.zoho.jp",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtppro.zoho.jp",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "zoho.com",
+  "name": "Zoho Mail - US",
+  "domains": [
+   "zoho.com",
+   "zohomail.com"
+  ],
+  "imap": [
+   {
+    "host": "imap.zoho.com",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.zoho.com",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.zoho.com",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.zoho.com/mail/help/imap-access.html",
+  "shortName": "Zoho - US",
+  "pop3": [
+   {
+    "host": "pop.zoho.com",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.zoho.com/mail/help/imap-access.html",
+    "description": {
+     "en": "Zoho Mail - Access via IMAP"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/pop-access.html",
+    "description": {
+     "en": "Zoho Mail - POP configuration details"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/zoho-smtp.html",
+    "description": {
+     "en": "Zoho Mail - SMTP Server Configuration"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/thunderbird-imap-access.html",
+    "description": {
+     "en": "Configure Zoho Mail as IMAP Account in Thunderbird"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/thunderbird-pop-access.html",
+    "description": {
+     "en": "Configure your Zoho Account as POP in Thunderbird"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/pop-access.html#EnablePOPAccess",
+    "description": {
+     "en": "Enable POP Access"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/imap-access.html#EnableIMAP",
+    "description": {
+     "en": "Enable IMAP Access"
+    }
+   }
+  ]
+ },
+ {
+  "id": "zoho.com.au",
+  "name": "Zoho Mail - Australia",
+  "domains": [
+   "zoho.com.au",
+   "zohomail.com.au"
+  ],
+  "imap": [
+   {
+    "host": "imap.zoho.com.au",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.zoho.com.au",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.zoho.com.au",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.zoho.com/mail/help/imap-access.html",
+  "shortName": "Zoho - Australia",
+  "pop3": [
+   {
+    "host": "pop.zoho.com.au",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.zoho.com/mail/help/imap-access.html",
+    "description": {
+     "en": "Zoho Mail - Access via IMAP"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/pop-access.html",
+    "description": {
+     "en": "Zoho Mail - POP configuration details"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/zoho-smtp.html",
+    "description": {
+     "en": "Zoho Mail - SMTP Server Configuration"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/thunderbird-imap-access.html",
+    "description": {
+     "en": "Configure Zoho Mail as IMAP Account in Thunderbird"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/thunderbird-pop-access.html",
+    "description": {
+     "en": "Configure your Zoho Account as POP in Thunderbird"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/pop-access.html#EnablePOPAccess",
+    "description": {
+     "en": "Enable POP Access"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/imap-access.html#EnableIMAP",
+    "description": {
+     "en": "Enable IMAP Access"
+    }
+   }
+  ]
+ },
+ {
+  "id": "zoho.eu",
+  "name": "Zoho Mail - Europe",
+  "domains": [
+   "zoho.eu",
+   "zohomail.eu"
+  ],
+  "imap": [
+   {
+    "host": "imap.zoho.eu",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.zoho.eu",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.zoho.eu",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.zoho.com/mail/help/imap-access.html",
+  "shortName": "Zoho - Europe",
+  "pop3": [
+   {
+    "host": "pop.zoho.eu",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.zoho.com/mail/help/imap-access.html",
+    "description": {
+     "en": "Zoho Mail - Access via IMAP"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/pop-access.html",
+    "description": {
+     "en": "Zoho Mail - POP configuration details"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/zoho-smtp.html",
+    "description": {
+     "en": "Zoho Mail - SMTP Server Configuration"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/thunderbird-imap-access.html",
+    "description": {
+     "en": "Configure Zoho Mail as IMAP Account in Thunderbird"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/thunderbird-pop-access.html",
+    "description": {
+     "en": "Configure your Zoho Account as POP in Thunderbird"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/pop-access.html#EnablePOPAccess",
+    "description": {
+     "en": "Enable POP Access"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/imap-access.html#EnableIMAP",
+    "description": {
+     "en": "Enable IMAP Access"
+    }
+   }
+  ]
+ },
+ {
+  "id": "zoho.in",
+  "name": "Zoho Mail - India",
+  "domains": [
+   "zoho.in",
+   "zohomail.in"
+  ],
+  "imap": [
+   {
+    "host": "imap.zoho.in",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.zoho.in",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.zoho.in",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.zoho.com/mail/help/imap-access.html",
+  "shortName": "Zoho - India",
+  "pop3": [
+   {
+    "host": "pop.zoho.in",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.zoho.com/mail/help/imap-access.html",
+    "description": {
+     "en": "Zoho Mail - Access via IMAP"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/pop-access.html",
+    "description": {
+     "en": "Zoho Mail - POP configuration details"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/zoho-smtp.html",
+    "description": {
+     "en": "Zoho Mail - SMTP Server Configuration"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/thunderbird-imap-access.html",
+    "description": {
+     "en": "Configure Zoho Mail as IMAP Account in Thunderbird"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/thunderbird-pop-access.html",
+    "description": {
+     "en": "Configure your Zoho Account as POP in Thunderbird"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/pop-access.html#EnablePOPAccess",
+    "description": {
+     "en": "Enable POP Access"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/imap-access.html#EnableIMAP",
+    "description": {
+     "en": "Enable IMAP Access"
+    }
+   }
+  ]
+ },
+ {
+  "id": "zoho.jp",
+  "name": "Zoho Mail - Japan",
+  "domains": [
+   "zoho.jp",
+   "zohomail.jp"
+  ],
+  "imap": [
+   {
+    "host": "imap.zoho.jp",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.zoho.jp",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.zoho.jp",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.zoho.com/mail/help/imap-access.html",
+  "shortName": "Zoho - Japan",
+  "pop3": [
+   {
+    "host": "pop.zoho.jp",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.zoho.com/mail/help/imap-access.html",
+    "description": {
+     "en": "Zoho Mail - Access via IMAP"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/pop-access.html",
+    "description": {
+     "en": "Zoho Mail - POP configuration details"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/zoho-smtp.html",
+    "description": {
+     "en": "Zoho Mail - SMTP Server Configuration"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/thunderbird-imap-access.html",
+    "description": {
+     "en": "Configure Zoho Mail as IMAP Account in Thunderbird"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/thunderbird-pop-access.html",
+    "description": {
+     "en": "Configure your Zoho Account as POP in Thunderbird"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/pop-access.html#EnablePOPAccess",
+    "description": {
+     "en": "Enable POP Access"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/imap-access.html#EnableIMAP",
+    "description": {
+     "en": "Enable IMAP Access"
+    }
+   }
+  ]
+ },
+ {
+  "id": "zohocloud.ca",
+  "name": "Zoho Mail - Canada",
+  "domains": [
+   "zohocloud.ca",
+   "zohomailcloud.ca"
+  ],
+  "imap": [
+   {
+    "host": "imap.zohocloud.ca",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.zohocloud.ca",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   },
+   {
+    "host": "smtp.zohocloud.ca",
+    "port": 587,
+    "security": "starttls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://www.zoho.com/mail/help/imap-access.html",
+  "shortName": "Zoho - Canada",
+  "pop3": [
+   {
+    "host": "pop.zohocloud.ca",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://www.zoho.com/mail/help/imap-access.html",
+    "description": {
+     "en": "Zoho Mail - Access via IMAP"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/pop-access.html",
+    "description": {
+     "en": "Zoho Mail - POP configuration details"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/zoho-smtp.html",
+    "description": {
+     "en": "Zoho Mail - SMTP Server Configuration"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/thunderbird-imap-access.html",
+    "description": {
+     "en": "Configure Zoho Mail as IMAP Account in Thunderbird"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/thunderbird-pop-access.html",
+    "description": {
+     "en": "Configure your Zoho Account as POP in Thunderbird"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/pop-access.html#EnablePOPAccess",
+    "description": {
+     "en": "Enable POP Access"
+    }
+   },
+   {
+    "url": "https://www.zoho.com/mail/help/imap-access.html#EnableIMAP",
+    "description": {
+     "en": "Enable IMAP Access"
+    }
+   }
+  ]
+ }
+]
