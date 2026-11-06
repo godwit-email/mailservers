@@ -1937,7 +1937,8 @@
   "domains": [
    "earthlink.net",
    "mindspring.com",
-   "ix.netcom.com"
+   "ix.netcom.com",
+   "peoplepc.com"
   ],
   "imap": [
    {
@@ -2648,28 +2649,44 @@
   "domains": [
    "goo.jp"
   ],
-  "imap": [],
-  "smtp": [
+  "imap": [
    {
-    "host": "smtp.mail.goo.ne.jp",
-    "port": 587,
-    "security": "plain",
-    "username": "%EMAILLOCALPART%",
+    "host": "imap.mail.goo.jp",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
     "auth": [
      "password-cleartext"
     ]
    }
   ],
-  "shortName": "goo",
-  "pop3": [
+  "smtp": [
    {
-    "host": "pop.mail.goo.ne.jp",
-    "port": 110,
-    "security": "plain",
-    "username": "%EMAILLOCALPART%",
+    "host": "smtp.mail.goo.jp",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
     "auth": [
      "password-cleartext"
     ]
+   }
+  ],
+  "helpUrl": "https://web.archive.org/web/20251118110504/https://mail.goo.ne.jp/howto/#app",
+  "shortName": "goo",
+  "pop3": [
+   {
+    "host": "pop.mail.goo.jp",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://web.archive.org/web/20251118110504/https://mail.goo.ne.jp/howto/#app"
    }
   ]
  },
@@ -5062,22 +5079,28 @@
     "host": "smtp.nifty.com",
     "port": 587,
     "security": "plain",
-    "username": "%EMAILLOCALPART%",
+    "username": "%EMAILADDRESS%",
     "auth": [
      "password-encrypted"
     ]
    }
   ],
+  "helpUrl": "https://mail.nifty.com/info/manual/#settingMethod-area",
   "shortName": "@nifty",
   "pop3": [
    {
     "host": "pop.nifty.com",
-    "port": 110,
-    "security": "plain",
-    "username": "%EMAILLOCALPART%",
+    "port": 995,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
     "auth": [
      "password-encrypted"
     ]
+   }
+  ],
+  "docs": [
+   {
+    "url": "https://mail.nifty.com/info/manual/#settingMethod-area"
    }
   ]
  },
@@ -5369,14 +5392,6 @@
    }
   ],
   "other": [
-   {
-    "type": "ews",
-    "username": "%EMAILADDRESS%",
-    "auth": [
-     "OAuth2"
-    ],
-    "url": "https://outlook.office365.com/ews/exchange.asmx"
-   },
    {
     "type": "owa",
     "username": "%EMAILADDRESS%",
@@ -5850,47 +5865,6 @@
     "description": {
      "en": "Portland State University Email Settings for Advanced Users"
     }
-   }
-  ]
- },
- {
-  "id": "peoplepc.com",
-  "name": "PeoplePC",
-  "domains": [
-   "peoplepc.com"
-  ],
-  "imap": [
-   {
-    "host": "imap.peoplepc.com",
-    "port": 143,
-    "security": "plain",
-    "username": "%EMAILADDRESS%",
-    "auth": [
-     "password-encrypted"
-    ]
-   }
-  ],
-  "smtp": [
-   {
-    "host": "smtpauth.peoplepc.com",
-    "port": 587,
-    "security": "starttls",
-    "username": "%EMAILADDRESS%",
-    "auth": [
-     "password-encrypted"
-    ]
-   }
-  ],
-  "shortName": "PeoplePC",
-  "pop3": [
-   {
-    "host": "pop.peoplepc.com",
-    "port": 110,
-    "security": "plain",
-    "username": "%EMAILADDRESS%",
-    "auth": [
-     "password-encrypted"
-    ]
    }
   ]
  },

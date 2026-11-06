@@ -999,7 +999,8 @@
   "domains": [
    "earthlink.net",
    "mindspring.com",
-   "ix.netcom.com"
+   "ix.netcom.com",
+   "peoplepc.com"
   ],
   "imap": [
    {
@@ -1452,6 +1453,36 @@
     "de": "Sie müssen einmalig den Zugriff über POP3 & IMAP in den E-Mail-Einstellungen Ihres Kontos erlauben!"
    }
   }
+ },
+ {
+  "id": "goo.jp",
+  "name": "goo メールアドバンス",
+  "domains": [
+   "goo.jp"
+  ],
+  "imap": [
+   {
+    "host": "imap.mail.goo.jp",
+    "port": 993,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "smtp": [
+   {
+    "host": "smtp.mail.goo.jp",
+    "port": 465,
+    "security": "tls",
+    "username": "%EMAILADDRESS%",
+    "auth": [
+     "password-cleartext"
+    ]
+   }
+  ],
+  "helpUrl": "https://web.archive.org/web/20251118110504/https://mail.goo.ne.jp/howto/#app"
  },
  {
   "id": "googlemail.com",
