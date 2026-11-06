@@ -55,7 +55,7 @@ Every week `sync.yml` moves the submodule, regenerates and tests. Because this d
 - If providers or addresses were only added, it commits to `main` and publishes a release.
 - If anything an existing address relies on changed or disappeared, it opens a `needs-review` pull request listing each change. Merging that publishes a release.
 
-Versions look like `v0.20261106.12`: date and run number.
+Versions look like `v0.20261106.1762401234`: date and Unix time.
 
 ## License
 

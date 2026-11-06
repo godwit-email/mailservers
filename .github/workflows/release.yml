@@ -7,6 +7,7 @@ on:
       - min.json
       - full/full.json
   workflow_call:
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -22,6 +23,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          tag="v0.$(date -u +%Y%m%d).$GITHUB_RUN_NUMBER"
+          tag="v0.$(date -u +%Y%m%d).$(date -u +%s)"
           gh release create "$tag" min.json full/full.json NOTICE LICENSE.data \
             --target "$(git rev-parse HEAD)" --title "$tag" --generate-notes
