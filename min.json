@@ -3026,7 +3026,8 @@
   "domains": [
    "office365.com",
    "onmicrosoft.com",
-   "mail.protection.outlook.com"
+   "mail.protection.outlook.com",
+   "mx.microsoft"
   ],
   "imap": [
    {
